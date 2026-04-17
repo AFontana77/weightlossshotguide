@@ -65,10 +65,10 @@ export default function BodyMonitorPage() {
     <>
       <BreadcrumbSchema
         items={[
-          { name: "Home", url: "https://www.glp1guide.com" },
+          { name: "Home", url: "https://www.weightlossshotguide.com" },
           {
             name: "Best Body Composition Monitors",
-            url: "https://www.glp1guide.com/best-body-composition-monitor",
+            url: "https://www.weightlossshotguide.com/best-body-composition-monitor",
           },
         ]}
       />
@@ -76,7 +76,7 @@ export default function BodyMonitorPage() {
         name="Best Body Composition Monitors for GLP-1 Users"
         items={bodyMonitors.map((p, i) => ({
           name: p.name,
-          url: `https://www.glp1guide.com/best-body-composition-monitor#${p.slug}`,
+          url: `https://www.weightlossshotguide.com/best-body-composition-monitor#${p.slug}`,
           position: i + 1,
         }))}
       />

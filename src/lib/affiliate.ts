@@ -1,7 +1,7 @@
-// Centralized affiliate tag management for GLP-1 Guide
+// Centralized affiliate tag management for Weight Loss Shot Guide
 // Swap ONE constant when affiliate accounts change
 
-export const AMAZON_TAG = "glp1guide-20"; // update when approved
+export const AMAZON_TAG = "weightlossshotguide-20"; // update when approved
 
 export const AFFILIATE_PROGRAMS = {
   amazon: {

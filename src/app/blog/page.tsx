@@ -50,7 +50,7 @@ export default function BlogPage() {
       {/* Header */}
       <header className="mb-12">
         <p className="text-sm font-semibold uppercase tracking-wider text-primary mb-2">
-          GLP-1 Guide Blog
+          Weight Loss Shot Guide Blog
         </p>
         <h1 className="font-heading text-3xl sm:text-4xl font-bold text-foreground">
           Nutrition, Supplements &amp; Tracking Guides

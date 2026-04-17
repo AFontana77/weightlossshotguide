@@ -39,7 +39,7 @@ export function Header() {
               </svg>
             </div>
             <span className="font-heading text-lg font-bold text-foreground group-hover:text-primary transition-colors">
-              GLP-1 Guide
+              Weight Loss Shot Guide
             </span>
           </Link>
 

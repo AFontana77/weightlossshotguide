@@ -16,7 +16,7 @@ export default function WhatToEatPage() {
       <ArticleSchema
         title="What to Eat on Ozempic: The Muscle-Preserving Protein Strategy"
         description="Muscle loss is the hidden risk of GLP-1 weight loss. Here's how to hit the 1.2-1.6g/kg protein target when you're barely hungry."
-        url="https://www.glp1guide.com/blog/what-to-eat-on-ozempic"
+        url="https://www.weightlossshotguide.com/blog/what-to-eat-on-ozempic"
         datePublished="2026-04-17"
         dateModified="2026-04-17"
       />

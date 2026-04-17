@@ -17,7 +17,7 @@ export default function DrugComparisonPage() {
       <ArticleSchema
         title="Ozempic vs Wegovy vs Mounjaro: What's Actually Different?"
         description="The real differences between semaglutide and tirzepatide — drug mechanisms, approved uses, weight loss outcomes, and cost."
-        url="https://www.glp1guide.com/blog/ozempic-vs-wegovy-vs-mounjaro"
+        url="https://www.weightlossshotguide.com/blog/ozempic-vs-wegovy-vs-mounjaro"
         datePublished="2026-04-17"
         dateModified="2026-04-17"
       />

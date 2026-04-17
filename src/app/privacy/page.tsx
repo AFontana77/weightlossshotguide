@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description: "GLP-1 Guide privacy policy — how we collect, use, and protect your information.",
+  description: "Weight Loss Shot Guide privacy policy — how we collect, use, and protect your information.",
 };
 
 export default function PrivacyPage() {
@@ -21,7 +21,7 @@ export default function PrivacyPage() {
             Information We Collect
           </h2>
           <p>
-            GLP-1 Guide collects limited information to operate the site and
+            Weight Loss Shot Guide collects limited information to operate the site and
             improve content. This includes:
           </p>
           <ul className="mt-2 space-y-1 list-disc list-inside">
@@ -67,7 +67,7 @@ export default function PrivacyPage() {
           <p>
             When you click affiliate links on this site, tracking cookies may
             be set by the destination site (Amazon, telehealth providers, etc.)
-            to attribute your purchase to GLP-1 Guide. This is standard
+            to attribute your purchase to Weight Loss Shot Guide. This is standard
             affiliate marketing practice. We earn commissions when you make
             qualifying purchases through these links.
           </p>
@@ -92,8 +92,8 @@ export default function PrivacyPage() {
             You have the right to request access to, correction of, or deletion
             of personal data we hold about you. To exercise these rights,
             contact us at{" "}
-            <a href="mailto:hello@glp1guide.com" className="text-primary hover:underline">
-              hello@glp1guide.com
+            <a href="mailto:hello@weightlossshotguide.com" className="text-primary hover:underline">
+              hello@weightlossshotguide.com
             </a>
             .
           </p>
@@ -116,8 +116,8 @@ export default function PrivacyPage() {
           </h2>
           <p>
             Questions about this privacy policy:{" "}
-            <a href="mailto:hello@glp1guide.com" className="text-primary hover:underline">
-              hello@glp1guide.com
+            <a href="mailto:hello@weightlossshotguide.com" className="text-primary hover:underline">
+              hello@weightlossshotguide.com
             </a>
           </p>
         </section>

@@ -16,7 +16,7 @@ export default function BodyCompositionPage() {
       <ArticleSchema
         title="Why the Scale Lies on GLP-1: Track Body Composition Instead"
         description="How to track fat vs. muscle loss during GLP-1 medication weight loss — tools, metrics, and why scale weight is misleading."
-        url="https://www.glp1guide.com/blog/glp1-body-composition-tracking"
+        url="https://www.weightlossshotguide.com/blog/glp1-body-composition-tracking"
         datePublished="2026-04-17"
         dateModified="2026-04-17"
       />

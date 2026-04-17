@@ -21,16 +21,16 @@ export function ArticleSchema({
     url,
     datePublished,
     dateModified,
-    image: image || "https://www.glp1guide.com/og-image.jpg",
+    image: image || "https://www.weightlossshotguide.com/og-image.jpg",
     author: {
       "@type": "Organization",
-      name: "GLP-1 Guide",
-      url: "https://www.glp1guide.com",
+      name: "Weight Loss Shot Guide",
+      url: "https://www.weightlossshotguide.com",
     },
     publisher: {
       "@type": "Organization",
-      name: "GLP-1 Guide",
-      url: "https://www.glp1guide.com",
+      name: "Weight Loss Shot Guide",
+      url: "https://www.weightlossshotguide.com",
     },
   };
 

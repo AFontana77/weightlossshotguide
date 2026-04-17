@@ -65,10 +65,10 @@ export default function ProteinPowderPage() {
     <>
       <BreadcrumbSchema
         items={[
-          { name: "Home", url: "https://www.glp1guide.com" },
+          { name: "Home", url: "https://www.weightlossshotguide.com" },
           {
             name: "Best Protein Powders for GLP-1 Users",
-            url: "https://www.glp1guide.com/best-protein-powder-glp1",
+            url: "https://www.weightlossshotguide.com/best-protein-powder-glp1",
           },
         ]}
       />
@@ -76,7 +76,7 @@ export default function ProteinPowderPage() {
         name="Best Protein Powders for GLP-1 Users"
         items={proteinShakes.map((p, i) => ({
           name: p.name,
-          url: `https://www.glp1guide.com/best-protein-powder-glp1#${p.slug}`,
+          url: `https://www.weightlossshotguide.com/best-protein-powder-glp1#${p.slug}`,
           position: i + 1,
         }))}
       />

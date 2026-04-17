@@ -21,16 +21,16 @@ const figtree = Figtree({
 export const metadata: Metadata = {
   title: {
     default:
-      "GLP-1 Guide — Products & Reviews for Ozempic, Wegovy & Mounjaro Users",
-    template: "%s | GLP-1 Guide",
+      "Weight Loss Shot Guide — GLP-1, Ozempic & Wegovy Product Reviews",
+    template: "%s | Weight Loss Shot Guide",
   },
   description:
-    "Evidence-based product reviews for GLP-1 medication users. Best protein powders, supplements, telehealth programs, and body composition monitors for Ozempic, Wegovy, and Mounjaro.",
-  metadataBase: new URL("https://www.glp1guide.com"),
+    "Evidence-based product reviews for weight loss shot users. Best protein powders, supplements, telehealth programs, and body composition monitors for Ozempic, Wegovy, and Mounjaro.",
+  metadataBase: new URL("https://www.weightlossshotguide.com"),
   openGraph: {
     type: "website",
     locale: "en_US",
-    siteName: "GLP-1 Guide",
+    siteName: "Weight Loss Shot Guide",
   },
   twitter: {
     card: "summary_large_image",

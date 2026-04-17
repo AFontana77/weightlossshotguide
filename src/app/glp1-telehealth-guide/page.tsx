@@ -65,10 +65,10 @@ export default function TelehealthGuidePage() {
     <>
       <BreadcrumbSchema
         items={[
-          { name: "Home", url: "https://www.glp1guide.com" },
+          { name: "Home", url: "https://www.weightlossshotguide.com" },
           {
             name: "GLP-1 Telehealth Guide",
-            url: "https://www.glp1guide.com/glp1-telehealth-guide",
+            url: "https://www.weightlossshotguide.com/glp1-telehealth-guide",
           },
         ]}
       />
@@ -76,7 +76,7 @@ export default function TelehealthGuidePage() {
         name="Best GLP-1 Telehealth Programs"
         items={telehealthPrograms.map((p, i) => ({
           name: p.name,
-          url: `https://www.glp1guide.com/glp1-telehealth-guide#${p.slug}`,
+          url: `https://www.weightlossshotguide.com/glp1-telehealth-guide#${p.slug}`,
           position: i + 1,
         }))}
       />

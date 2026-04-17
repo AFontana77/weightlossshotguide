@@ -37,7 +37,7 @@ export function Footer() {
                 </svg>
               </div>
               <span className="font-heading text-base font-bold">
-                GLP-1 Guide
+                Weight Loss Shot Guide
               </span>
             </Link>
             <p className="mt-3 text-sm text-muted-foreground leading-relaxed max-w-xs">
@@ -93,10 +93,10 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="mt-10 pt-6 border-t border-border flex flex-col sm:flex-row justify-between items-center gap-3">
           <p className="text-xs text-muted-foreground">
-            &copy; {currentYear} GLP-1 Guide. All rights reserved.
+            &copy; {currentYear} Weight Loss Shot Guide. All rights reserved.
           </p>
           <p className="text-xs text-muted-foreground text-center sm:text-right max-w-md">
-            GLP-1 Guide is reader-supported. When you buy through links on our
+            Weight Loss Shot Guide is reader-supported. When you buy through links on our
             site, we may earn an affiliate commission at no extra cost to you.
           </p>
         </div>

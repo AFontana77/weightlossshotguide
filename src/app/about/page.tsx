@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "About GLP-1 Guide",
+  title: "About Weight Loss Shot Guide",
   description:
-    "About GLP-1 Guide — who we are, who this site is for, and how we make money through affiliate partnerships.",
+    "About Weight Loss Shot Guide — who we are, who this site is for, and how we make money through affiliate partnerships.",
 };
 
 export default function AboutPage() {
@@ -12,7 +12,7 @@ export default function AboutPage() {
     <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-12">
       <header className="mb-10">
         <h1 className="font-heading text-3xl sm:text-4xl font-bold text-foreground">
-          About GLP-1 Guide
+          About Weight Loss Shot Guide
         </h1>
         <p className="mt-3 text-lg text-muted-foreground">
           The companion resource for people on GLP-1 medications.
@@ -25,7 +25,7 @@ export default function AboutPage() {
             Who This Site Is For
           </h2>
           <p>
-            GLP-1 Guide exists for people who are on Ozempic, Wegovy, Mounjaro,
+            Weight Loss Shot Guide exists for people who are on Ozempic, Wegovy, Mounjaro,
             or any other GLP-1 receptor agonist and want specific, evidence-based
             guidance on the products and strategies that matter for their
             situation. Generic supplement and nutrition advice doesn&apos;t account for
@@ -58,7 +58,7 @@ export default function AboutPage() {
             Affiliate Disclosure — How We Make Money
           </h2>
           <p>
-            GLP-1 Guide earns revenue through affiliate partnerships. When you
+            Weight Loss Shot Guide earns revenue through affiliate partnerships. When you
             click a link on this site and make a purchase, we may earn a
             commission at no additional cost to you. This is how reader-supported
             sites like this one stay funded.
@@ -99,10 +99,10 @@ export default function AboutPage() {
             For questions about content, corrections, or affiliate partnerships,
             reach us at:{" "}
             <a
-              href="mailto:hello@glp1guide.com"
+              href="mailto:hello@weightlossshotguide.com"
               className="text-primary hover:underline"
             >
-              hello@glp1guide.com
+              hello@weightlossshotguide.com
             </a>
           </p>
           <p className="mt-3">

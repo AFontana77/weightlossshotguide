@@ -74,9 +74,9 @@ export default function HomePage() {
   return (
     <>
       <ArticleSchema
-        title="GLP-1 Guide — Products & Reviews for Ozempic, Wegovy & Mounjaro Users"
-        description="Evidence-based product reviews for GLP-1 medication users. Best protein powders, supplements, telehealth programs, and body composition monitors."
-        url="https://www.glp1guide.com"
+        title="Weight Loss Shot Guide — GLP-1, Ozempic & Wegovy Product Reviews"
+        description="Evidence-based product reviews for weight loss shot users. Best protein powders, supplements, telehealth programs, and body composition monitors."
+        url="https://www.weightlossshotguide.com"
         datePublished="2026-04-17"
         dateModified={new Date().toISOString().split("T")[0]}
       />
@@ -225,7 +225,7 @@ export default function HomePage() {
       <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="font-heading text-2xl font-bold text-foreground">
-            Why Trust GLP-1 Guide?
+            Why Trust Weight Loss Shot Guide?
           </h2>
           <div className="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-6 text-sm">
             <div>
@@ -264,7 +264,7 @@ export default function HomePage() {
       <section className="border-t border-border bg-muted/30">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-6">
           <p className="text-xs text-muted-foreground text-center max-w-2xl mx-auto">
-            <strong>Affiliate Disclosure:</strong> GLP-1 Guide is
+            <strong>Affiliate Disclosure:</strong> Weight Loss Shot Guide is
             reader-supported. When you buy through links on our site, we may
             earn an affiliate commission at no extra cost to you. This helps us
             keep our research independent.{" "}

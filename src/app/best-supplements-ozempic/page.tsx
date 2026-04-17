@@ -65,10 +65,10 @@ export default function SupplementsPage() {
     <>
       <BreadcrumbSchema
         items={[
-          { name: "Home", url: "https://www.glp1guide.com" },
+          { name: "Home", url: "https://www.weightlossshotguide.com" },
           {
             name: "Best Supplements for Ozempic",
-            url: "https://www.glp1guide.com/best-supplements-ozempic",
+            url: "https://www.weightlossshotguide.com/best-supplements-ozempic",
           },
         ]}
       />
@@ -76,7 +76,7 @@ export default function SupplementsPage() {
         name="Best Supplements for GLP-1 Users"
         items={supplementProducts.map((p, i) => ({
           name: p.name,
-          url: `https://www.glp1guide.com/best-supplements-ozempic#${p.slug}`,
+          url: `https://www.weightlossshotguide.com/best-supplements-ozempic#${p.slug}`,
           position: i + 1,
         }))}
       />

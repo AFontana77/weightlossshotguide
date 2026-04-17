@@ -16,7 +16,7 @@ export default function SupplementsGuidePage() {
       <ArticleSchema
         title="5 Supplements Every GLP-1 User Should Take (Backed by Research)"
         description="The evidence-based supplement list for GLP-1 medication users — creatine, probiotics, magnesium, B12, and Vitamin D."
-        url="https://www.glp1guide.com/blog/glp1-supplements-guide"
+        url="https://www.weightlossshotguide.com/blog/glp1-supplements-guide"
         datePublished="2026-04-17"
         dateModified="2026-04-17"
       />

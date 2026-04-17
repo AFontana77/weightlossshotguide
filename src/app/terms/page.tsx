@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Terms of Service",
-  description: "GLP-1 Guide terms of service.",
+  description: "Weight Loss Shot Guide terms of service.",
 };
 
 export default function TermsPage() {
@@ -21,7 +21,7 @@ export default function TermsPage() {
             Acceptance of Terms
           </h2>
           <p>
-            By accessing and using GLP-1 Guide (glp1guide.com), you accept and
+            By accessing and using Weight Loss Shot Guide (weightlossshotguide.com), you accept and
             agree to be bound by these Terms of Service. If you do not agree,
             please do not use this site.
           </p>
@@ -32,7 +32,7 @@ export default function TermsPage() {
             Not Medical Advice
           </h2>
           <p>
-            The content on GLP-1 Guide is for informational purposes only and
+            The content on Weight Loss Shot Guide is for informational purposes only and
             does not constitute medical advice, diagnosis, or treatment. Always
             consult a qualified healthcare provider before starting, stopping,
             or changing any medication or supplement regimen. GLP-1 medications
@@ -65,8 +65,8 @@ export default function TermsPage() {
             Intellectual Property
           </h2>
           <p>
-            All content on GLP-1 Guide — including text, graphics, and code —
-            is owned by GLP-1 Guide or its content providers and is protected
+            All content on Weight Loss Shot Guide — including text, graphics, and code —
+            is owned by Weight Loss Shot Guide or its content providers and is protected
             by copyright. You may not reproduce, distribute, or create
             derivative works without written permission.
           </p>
@@ -77,7 +77,7 @@ export default function TermsPage() {
             Limitation of Liability
           </h2>
           <p>
-            GLP-1 Guide is provided &quot;as is&quot; without warranties of any kind.
+            Weight Loss Shot Guide is provided &quot;as is&quot; without warranties of any kind.
             We are not liable for any damages arising from use of this site or
             reliance on its content. This includes but is not limited to
             damages arising from health decisions made based on content
@@ -114,8 +114,8 @@ export default function TermsPage() {
           </h2>
           <p>
             Questions about these terms:{" "}
-            <a href="mailto:hello@glp1guide.com" className="text-primary hover:underline">
-              hello@glp1guide.com
+            <a href="mailto:hello@weightlossshotguide.com" className="text-primary hover:underline">
+              hello@weightlossshotguide.com
             </a>
           </p>
         </section>
