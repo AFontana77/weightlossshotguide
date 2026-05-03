@@ -1,4 +1,12 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Weight Loss Shot Guide — GLP-1 Protein, Supplements & Telehealth",
+  description:
+    "GLP-1 guide for Ozempic and Wegovy users. Find the best protein shakes, compare telehealth programs, and track body fat the right way.",
+  alternates: { canonical: "https://www.weightlossshotguide.com" },
+};
 import { ArrowRight, Dumbbell, Pill, Stethoscope, Scale } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -8,7 +16,7 @@ const categories = [
   {
     title: "Protein Shakes",
     description:
-      "Which powders actually work with GLP-1 appetite suppression? RTD options, whey, and collagen — ranked for suppressed appetites.",
+      "Which powders actually work with GLP-1 appetite suppression? RTD options, whey, and collagen, ranked for suppressed appetites.",
     href: "/best-protein-powder-glp1",
     icon: Dumbbell,
     badge: "Most Critical",
@@ -24,15 +32,15 @@ const categories = [
   {
     title: "Telehealth Programs",
     description:
-      "Compare programs by real cost, support quality, and state availability. We show you the affiliate commissions too.",
+      "Compare programs by real cost, medical oversight quality, and state availability. Two programs cleared our bar.",
     href: "/glp1-telehealth-guide",
     icon: Stethoscope,
-    badge: "High CPA",
+    badge: "Most Researched",
   },
   {
     title: "Body Monitors",
     description:
-      "Track fat vs. muscle loss — the number on the scale doesn't tell the full story. Smart scales that matter.",
+      "Track fat vs. muscle loss. The number on the scale does not tell the full story. Smart scales that matter.",
     href: "/best-body-composition-monitor",
     icon: Scale,
     badge: "Essential Tool",
@@ -86,17 +94,17 @@ export default function HomePage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
           <div className="max-w-3xl">
             <p className="text-sm font-semibold uppercase tracking-wider text-primary mb-3">
-              Evidence-Based Product Reviews
+              4 Telehealth Programs Reviewed · Updated May 2026 · Affiliate Commissions Disclosed
             </p>
             <h1 className="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground leading-tight">
-              The Companion Guide for{" "}
-              <span className="text-primary">GLP-1 Users</span>
+              Find the Right GLP-1 Program.{" "}
+              <span className="text-primary">Keep the Muscle. Skip the Side Effects.</span>
             </h1>
             <p className="mt-5 text-lg sm:text-xl text-muted-foreground leading-relaxed max-w-2xl">
-              We review protein powders, supplements, telehealth programs, and
-              body monitors specifically for people on Ozempic, Wegovy, and
-              Mounjaro. No generic advice — only what works differently on
-              GLP-1.
+              Independent reviews for Ozempic, Wegovy, and Mounjaro users.
+              Protein targets, supplement protocols, and telehealth comparisons
+              built for suppressed appetites and real medical oversight, not
+              generic wellness advice.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-3">
               <Link href="/glp1-telehealth-guide">
@@ -104,7 +112,7 @@ export default function HomePage() {
                   size="lg"
                   className="bg-accent hover:bg-accent/90 text-accent-foreground cursor-pointer w-full sm:w-auto"
                 >
-                  Find a Telehealth Program
+                  Compare Telehealth Programs
                   <ArrowRight className="w-4 h-4 ml-2" />
                 </Button>
               </Link>
@@ -114,10 +122,13 @@ export default function HomePage() {
                   size="lg"
                   className="cursor-pointer w-full sm:w-auto"
                 >
-                  Browse All Reviews
+                  See All Reviews
                 </Button>
               </Link>
             </div>
+            <p className="mt-6 text-sm text-muted-foreground">
+              No pharma sponsorships · Updated when pricing changes · Affiliate commissions disclosed in full
+            </p>
           </div>
         </div>
       </section>
@@ -130,8 +141,8 @@ export default function HomePage() {
           </h2>
           <p className="mt-2 text-muted-foreground max-w-xl mx-auto">
             Every review is written for GLP-1 users specifically. Generic
-            supplement and nutrition advice doesn&apos;t apply — we cover
-            what&apos;s different about supplementing and eating on these
+            supplement and nutrition advice does not apply. We cover
+            what is different about supplementing and eating on these
             medications.
           </p>
         </div>

@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description: "Weight Loss Shot Guide privacy policy — how we collect, use, and protect your information.",
+  alternates: { canonical: "https://www.weightlossshotguide.com/privacy" },
 };
 
 export default function PrivacyPage() {

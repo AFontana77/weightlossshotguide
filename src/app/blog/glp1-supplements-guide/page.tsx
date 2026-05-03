@@ -7,7 +7,8 @@ import { ArticleSchema } from "@/components/schema/json-ld";
 export const metadata: Metadata = {
   title: "5 Supplements Every GLP-1 User Should Take (Backed by Research)",
   description:
-    "Creatine for muscle preservation, probiotics for GI side effects, magnesium for deficiency, B12, and Vitamin D — the evidence-based supplement list for Ozempic and Wegovy users.",
+    "Creatine for muscle loss, probiotics for stomach problems, magnesium, B12, and Vitamin D. The supplement list built for Ozempic and Wegovy users.",
+  alternates: { canonical: "https://www.weightlossshotguide.com/blog/glp1-supplements-guide" },
 };
 
 export default function SupplementsGuidePage() {
@@ -15,7 +16,7 @@ export default function SupplementsGuidePage() {
     <>
       <ArticleSchema
         title="5 Supplements Every GLP-1 User Should Take (Backed by Research)"
-        description="The evidence-based supplement list for GLP-1 medication users — creatine, probiotics, magnesium, B12, and Vitamin D."
+        description="The supplement list for GLP-1 users: creatine, probiotics, magnesium, B12, and Vitamin D."
         url="https://www.weightlossshotguide.com/blog/glp1-supplements-guide"
         datePublished="2026-04-17"
         dateModified="2026-04-17"
@@ -45,117 +46,100 @@ export default function SupplementsGuidePage() {
 
         <article className="space-y-6 text-foreground">
           <p className="text-lg text-muted-foreground leading-relaxed">
-            GLP-1 medications create nutritional conditions that don&apos;t
-            exist in normal dieting. Suppressed appetite leads to nutritional
-            gaps. Rapid weight loss depletes certain minerals faster than usual.
-            Changed gut motility creates side effects that require targeted
-            support. Generic supplement advice doesn&apos;t account for any of
-            this. Here are the five supplements with the strongest evidence
-            specifically for people on semaglutide and tirzepatide.
+            GLP-1 drugs are different from a regular diet. They kill your
+            hunger. You eat less. You miss key vitamins and minerals. Fast
+            weight loss drains certain minerals even faster. Regular pill advice
+            does not cover this. These five have the most research for Ozempic,
+            Wegovy, and Mounjaro users.
           </p>
 
           {/* Supplement 1 */}
-          <div className="bg-primary/5 border-l-4 border-primary p-5 rounded-r-lg">
+          <div className="bg-primary/5 border border-primary/20 p-5 rounded-lg">
             <h2 className="font-heading text-xl font-bold text-foreground mb-1">
-              1. Creatine Monohydrate — Non-Negotiable
+              1. Creatine Monohydrate: Non-Negotiable
             </h2>
             <p className="text-sm text-primary font-medium mb-3">5g daily</p>
             <p className="text-muted-foreground leading-relaxed">
-              Creatine has more clinical evidence for muscle preservation during
-              caloric restriction than any other supplement. Multiple
-              randomized controlled trials show that 5g of creatine monohydrate
-              daily maintains lean muscle mass and strength during significant
-              weight loss. On GLP-1 medications — where rapid, large-volume
-              weight loss is common — this matters more than in any other
-              dietary context. Creatine is inexpensive, safe, and has a strong
-              enough evidence base that it belongs in the same category as
-              adequate protein: not optional.
+              Creatine has more research for keeping muscle than any other
+              product. Studies show 5g per day keeps lean muscle and strength.
+              Muscle breaks down when you lose weight fast. GLP-1s speed that
+              up. Creatine is cheap and safe. Treat it like protein: not
+              optional.
             </p>
           </div>
 
           {/* Supplement 2 */}
-          <div className="bg-accent/5 border-l-4 border-accent p-5 rounded-r-lg">
+          <div className="bg-accent/5 border border-accent/20 p-5 rounded-lg">
             <h2 className="font-heading text-xl font-bold text-foreground mb-1">
-              2. Multi-Strain Probiotic — For GI Side Effects
+              2. Multi-Strain Probiotic: For Stomach Side Effects
             </h2>
             <p className="text-sm text-accent font-medium mb-3">50 billion+ CFU, 10+ strains</p>
             <p className="text-muted-foreground leading-relaxed">
-              Between 30-40% of GLP-1 users experience significant GI side
-              effects: nausea, constipation, diarrhea, or stomach discomfort.
-              These side effects cause many people to discontinue treatment.
-              GLP-1 medications work partly by slowing gastric emptying —
-              which changes the entire gut environment. A high-quality
-              multi-strain probiotic directly supports this environment. The
-              evidence is strongest for probiotic strains that improve gut
-              motility and reduce nausea. Look for at least 10 strains and 50
-              billion CFU. Shelf-stable formulas are more practical than
-              refrigerated ones.
+              30 to 40% of GLP-1 users get stomach problems. Nausea is the
+              most common. Diarrhea and constipation are close behind. Many quit
+              their meds because of this. GLP-1 drugs slow digestion. That
+              changes your gut. A good probiotic helps. Look for 10+ strains and
+              50 billion CFU. Pick a shelf-stable brand, not one that needs a
+              fridge.
             </p>
           </div>
 
           {/* Supplement 3 */}
-          <div className="bg-primary/5 border-l-4 border-primary p-5 rounded-r-lg">
+          <div className="bg-primary/5 border border-primary/20 p-5 rounded-lg">
             <h2 className="font-heading text-xl font-bold text-foreground mb-1">
-              3. Magnesium Bisglycinate — Deficiency Accelerates on GLP-1
+              3. Magnesium Bisglycinate: Levels Drop Fast on GLP-1
             </h2>
             <p className="text-sm text-primary font-medium mb-3">200-400mg before bed</p>
             <p className="text-muted-foreground leading-relaxed">
-              Magnesium is the most commonly deficient mineral in Western diets.
-              Rapid weight loss makes it worse — magnesium is stored partly in
-              fat tissue and is excreted more rapidly during active weight loss.
-              Deficiency shows up as poor sleep, muscle cramps, fatigue, and
-              constipation. The form matters: magnesium oxide and citrate have
-              laxative effects at therapeutic doses. Magnesium bisglycinate
-              absorbs well without the digestive side effects, making it the
-              right choice for GLP-1 users who already deal with GI sensitivity.
+              Most people are already low in magnesium. Fast weight loss makes
+              it worse. You lose magnesium fast when you lose fat. Low
+              magnesium causes bad sleep, muscle cramps, and constipation. The
+              type matters. Oxide and citrate can cause diarrhea. Bisglycinate
+              absorbs well. It will not upset your stomach. That is the form to
+              buy.
             </p>
           </div>
 
           {/* Supplement 4 */}
-          <div className="bg-accent/5 border-l-4 border-accent p-5 rounded-r-lg">
+          <div className="bg-accent/5 border border-accent/20 p-5 rounded-lg">
             <h2 className="font-heading text-xl font-bold text-foreground mb-1">
-              4. Vitamin B12 — Often Low After Dietary Changes
+              4. Vitamin B12: Often Low on GLP-1
             </h2>
             <p className="text-sm text-accent font-medium mb-3">1,000mcg sublingual or methylcobalamin</p>
             <p className="text-muted-foreground leading-relaxed">
-              B12 is found primarily in animal products. GLP-1 users who eat
-              significantly less overall — and particularly those who reduce
-              meat intake — commonly develop B12 insufficiency. Symptoms
-              include fatigue, brain fog, and nerve tingling. Sublingual B12
-              (dissolved under the tongue) absorbs better than standard
-              swallowed tablets and doesn&apos;t require stomach acid for
-              absorption — relevant for users with reduced gastric secretion
-              from GLP-1 medications.
+              B12 comes mainly from meat, fish, and eggs. GLP-1 users eat
+              less overall. Many eat less meat. That leads to low B12 fast.
+              Signs of low B12: tiredness, brain fog, and hand or foot
+              tingling. Get the sublingual kind. It dissolves under your tongue.
+              It absorbs better than a pill. GLP-1 drugs slow your stomach
+              acid. Sublingual B12 skips that issue.
             </p>
           </div>
 
           {/* Supplement 5 */}
-          <div className="bg-primary/5 border-l-4 border-primary p-5 rounded-r-lg">
+          <div className="bg-primary/5 border border-primary/20 p-5 rounded-lg">
             <h2 className="font-heading text-xl font-bold text-foreground mb-1">
-              5. Vitamin D3 + K2 — Foundation for Everything Else
+              5. Vitamin D3 + K2: The Base Layer
             </h2>
             <p className="text-sm text-primary font-medium mb-3">2,000-5,000 IU D3 with K2</p>
             <p className="text-muted-foreground leading-relaxed">
-              Vitamin D deficiency is extremely common and affects immune
-              function, bone density, muscle function, and metabolic health.
-              For GLP-1 users specifically: reduced food intake reduces
-              dietary D intake, and rapid weight loss can temporarily reduce
-              D absorption from fat tissue. D3 + K2 is the best combination —
-              K2 ensures calcium goes to bones rather than arteries, which
-              matters more when D levels are actively being corrected.
+              Most people are short on vitamin D. It helps your bones, muscles,
+              and immune system. GLP-1 users eat less. They get less D from
+              food. Fast weight loss lowers how much your body holds. Take D3
+              with K2. K2 sends calcium to your bones, not your arteries. This
+              matters most when you are raising your D levels.
             </p>
           </div>
 
           <div className="bg-muted/50 border border-border rounded-lg p-5">
             <h3 className="font-heading text-lg font-semibold text-foreground mb-2">
-              What About a Multivitamin?
+              What about a multivitamin?
             </h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              A basic multivitamin is a reasonable addition for GLP-1 users
-              eating significantly less than normal. It won&apos;t replace
-              the targeted supplements above — multivitamin doses are too
-              low for magnesium and B12, and they don&apos;t include creatine
-              or probiotic strains. Use it as insurance, not a substitute.
+              A basic multivitamin is fine to add. But it is no swap for the
+              five above. Multivitamins are low in magnesium. They are low in
+              B12. They have no creatine or probiotic strains. Use it as a
+              backup. Not a swap.
             </p>
           </div>
         </article>
@@ -166,7 +150,7 @@ export default function SupplementsGuidePage() {
             See Our Top-Rated GLP-1 Supplements
           </h2>
           <p className="text-muted-foreground mb-4">
-            We reviewed the best creatine, probiotic, and magnesium products specifically for GLP-1 users.
+            We reviewed the best creatine, probiotic, and magnesium products for GLP-1 users.
           </p>
           <Link href="/best-supplements-ozempic">
             <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground cursor-pointer">

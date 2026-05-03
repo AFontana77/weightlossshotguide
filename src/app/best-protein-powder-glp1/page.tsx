@@ -15,6 +15,7 @@ export const metadata: Metadata = {
   title: "Best Protein Powders for GLP-1 Users (2026)",
   description:
     "The best protein supplements specifically for Ozempic, Wegovy, and Mounjaro users. Ranked for absorption, tolerability, and hitting the 1.2-1.6g/kg protein target on a suppressed appetite.",
+  alternates: { canonical: "https://www.weightlossshotguide.com/best-protein-powder-glp1" },
 };
 
 const faqs = [
@@ -26,7 +27,7 @@ const faqs = [
   {
     question: "Is it safe to use protein powder on GLP-1 medications?",
     answer:
-      "Yes. Protein powder is food — concentrated food protein — and does not interact with semaglutide, tirzepatide, or any other GLP-1 medication. It is safe to use. The practical consideration is tolerability: some users find protein powder causes bloating during the initial GLP-1 adjustment period. If this affects you, start with ready-to-drink options like Fairlife Core Power.",
+      "Yes. Protein powder is food, concentrated food protein, and does not interact with semaglutide, tirzepatide, or any other GLP-1 medication. It is safe to use. The practical consideration is tolerability: some users find protein powder causes bloating during the initial GLP-1 adjustment period. If this affects you, start with ready-to-drink options like Fairlife Core Power.",
   },
   {
     question: "Should I use whey or plant protein on Ozempic?",
@@ -36,7 +37,7 @@ const faqs = [
   {
     question: "What if protein powder makes me nauseous on GLP-1?",
     answer:
-      "Try ready-to-drink liquid proteins first — particularly Fairlife Core Power Elite. Liquid protein with no mixing, no powder texture, and no prep is much easier on a GLP-1-suppressed stomach. If even RTD proteins cause nausea, try collagen peptides first (they dissolve invisibly in any beverage and are very gentle) and slowly build tolerance before moving to whey.",
+      "Try ready-to-drink liquid proteins first, particularly Fairlife Core Power Elite. Liquid protein with no mixing, no powder texture, and no prep is much easier on a GLP-1-suppressed stomach. If even RTD proteins cause nausea, try collagen peptides first (they dissolve invisibly in any beverage and are very gentle) and slowly build tolerance before moving to whey.",
   },
 ];
 
@@ -100,7 +101,7 @@ export default function ProteinPowderPage() {
           <p className="mt-4 text-lg text-muted-foreground leading-relaxed">
             Protein is the single most important nutritional variable for anyone
             on Ozempic, Wegovy, or Mounjaro. GLP-1 medications suppress appetite
-            so effectively that most users eat too little protein — and the body
+            so effectively that most users eat too little protein, and the body
             responds by breaking down muscle, not just fat. The clinical target
             is 1.2-1.6g of protein per kilogram of body weight daily. At average
             body weights, that means 100-140g of protein every day from a stomach
@@ -112,12 +113,131 @@ export default function ProteinPowderPage() {
           </p>
         </header>
 
+        {/* Protein Target Section */}
+        <section className="mb-10">
+          <h2 className="font-heading text-2xl font-bold text-foreground mb-4">
+            Your Protein Target on GLP-1
+          </h2>
+          <p className="text-muted-foreground leading-relaxed mb-4">
+            The standard protein goal is 0.8g per kg of body weight. On GLP-1
+            drugs, that number goes up to 1.2-1.6g per kg. The reason is
+            simple. Fast weight loss burns muscle. More protein slows that down.
+          </p>
+          <div className="overflow-x-auto border border-border rounded-lg mb-4">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="bg-muted/50 border-b border-border">
+                  <th className="text-left px-4 py-3 font-semibold text-foreground">Body Weight</th>
+                  <th className="text-left px-4 py-3 font-semibold text-foreground">Min Daily Protein</th>
+                  <th className="text-left px-4 py-3 font-semibold text-foreground">Max Daily Protein</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-border">
+                {[
+                  ["140 lbs (64 kg)", "77g", "102g"],
+                  ["160 lbs (73 kg)", "88g", "117g"],
+                  ["180 lbs (82 kg)", "98g", "131g"],
+                  ["200 lbs (91 kg)", "109g", "146g"],
+                  ["220 lbs (100 kg)", "120g", "160g"],
+                  ["240 lbs (109 kg)", "131g", "174g"],
+                ].map(([weight, min, max]) => (
+                  <tr key={weight}>
+                    <td className="px-4 py-3 font-medium text-foreground">{weight}</td>
+                    <td className="px-4 py-3 text-muted-foreground">{min}</td>
+                    <td className="px-4 py-3 text-muted-foreground">{max}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-sm text-muted-foreground">
+            GLP-1 cuts hunger hard. Most users eat 800-1,200 calories per day.
+            Hitting 100g+ of protein from food alone at that calorie level is
+            very hard. Protein shakes fill the gap.
+          </p>
+        </section>
+
+        {/* Whey vs Plant */}
+        <section className="mb-10">
+          <h2 className="font-heading text-2xl font-bold text-foreground mb-4">
+            Whey vs Plant Protein on GLP-1
+          </h2>
+          <p className="text-muted-foreground leading-relaxed mb-3">
+            Whey is the better pick for muscle. It has more leucine than plant
+            protein. Leucine is the amino acid that tells your muscles to hold
+            on. More leucine means more muscle kept during weight loss.
+          </p>
+          <p className="text-muted-foreground leading-relaxed mb-3">
+            Dairy-free? Use a pea and rice blend. This mix comes closest to
+            whey&apos;s amino acid profile. Pea alone is not enough.
+          </p>
+          <p className="text-muted-foreground leading-relaxed">
+            Collagen protein is a third option. It does not build muscle on its
+            own. But it is the easiest to tolerate. No texture. No powder clump.
+            Dissolves in hot or cold liquid. Good for early GLP-1 use when
+            nausea is still a problem.
+          </p>
+        </section>
+
+        {/* RTD vs Powder */}
+        <section className="mb-10">
+          <h2 className="font-heading text-2xl font-bold text-foreground mb-4">
+            Ready-to-Drink vs Powder: Which to Start With
+          </h2>
+          <p className="text-muted-foreground leading-relaxed mb-3">
+            In the first 4-8 weeks on GLP-1, nausea is common. Mixing powder
+            takes effort. The smell of powder can make nausea worse. Start
+            with ready-to-drink (RTD) shakes. No prep. No smell. Easy to
+            sip small amounts.
+          </p>
+          <p className="text-muted-foreground leading-relaxed mb-4">
+            Once your body adjusts to the drug, switch to powder. Powder is
+            cheaper per gram of protein. You have more control over what goes
+            in it. A 5 lb bag of whey costs about $0.50-0.80 per serving.
+            RTD shakes cost $2-3 each.
+          </p>
+          <div className="bg-muted/50 border border-border rounded-lg p-4 text-sm text-muted-foreground">
+            <strong className="text-foreground">Rule of thumb:</strong> Start
+            with RTD shakes. Use powder after 6-8 weeks when your stomach
+            has settled. Keep RTD on hand for high-nausea days.
+          </div>
+        </section>
+
+        {/* How we ranked */}
+        <section className="mb-10">
+          <h2 className="font-heading text-2xl font-bold text-foreground mb-4">
+            How We Ranked These
+          </h2>
+          <p className="text-muted-foreground leading-relaxed mb-3">
+            We did not rank by taste or marketing. We ranked by what matters
+            on GLP-1. Four things drove every pick:
+          </p>
+          <ul className="space-y-2 text-sm text-muted-foreground">
+            <li className="flex items-start gap-2">
+              <span className="font-bold text-primary shrink-0">1.</span>
+              <span><strong className="text-foreground">Protein per serving.</strong> We want 25g or more. Below that, you need too many servings to hit your daily goal.</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="font-bold text-primary shrink-0">2.</span>
+              <span><strong className="text-foreground">GI tolerance.</strong> Anything that causes more nausea or bloating on top of GLP-1 side effects is out.</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="font-bold text-primary shrink-0">3.</span>
+              <span><strong className="text-foreground">Leucine content.</strong> For whey products, we checked leucine levels. High leucine = better muscle signal.</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="font-bold text-primary shrink-0">4.</span>
+              <span><strong className="text-foreground">Ease of use.</strong> When hunger is low, prep friction matters. We favored options that take under 60 seconds to prepare.</span>
+            </li>
+          </ul>
+        </section>
+
         {/* Affiliate Disclosure */}
         <div className="bg-muted/50 border border-border rounded-lg p-4 mb-10 text-sm text-muted-foreground">
           <strong className="text-foreground">Affiliate Disclosure:</strong> This
           page contains affiliate links. We earn a commission when you purchase
           through our links, at no extra cost to you. This does not influence our
-          rankings — we highlight cons as prominently as pros.
+          rankings, we highlight cons as prominently as pros.
         </div>
 
         {/* Products */}
@@ -212,7 +332,7 @@ export default function ProteinPowderPage() {
                   </div>
 
                   {/* Verdict */}
-                  <div className="mt-5 border-l-4 border-primary pl-4">
+                  <div className="mt-5 bg-primary/5 border border-primary/20 rounded-lg p-4">
                     <p className="text-sm font-semibold text-foreground mb-1">
                       Our Verdict
                     </p>
@@ -225,7 +345,7 @@ export default function ProteinPowderPage() {
                     <a
                       href={link.url}
                       target="_blank"
-                      rel="noopener noreferrer nofollow"
+                      rel="noopener noreferrer nofollow sponsored"
                     >
                       <Button
                         size="lg"

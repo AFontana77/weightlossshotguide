@@ -12,9 +12,10 @@ import { telehealthPrograms } from "@/data/products";
 import { bestLink } from "@/lib/affiliate";
 
 export const metadata: Metadata = {
-  title: "GLP-1 Telehealth Programs Compared (2026) — Ozempic & Semaglutide Online",
+  title: "GLP-1 Telehealth Programs Compared (2026), Ozempic & Semaglutide Online",
   description:
     "Compare GLP-1 telehealth providers by cost, medical oversight quality, state availability, and what 'generic semaglutide' actually means. Honest comparison with affiliate commissions disclosed.",
+  alternates: { canonical: "https://www.weightlossshotguide.com/glp1-telehealth-guide" },
 };
 
 const faqs = [
@@ -26,17 +27,17 @@ const faqs = [
   {
     question: "What's the difference between branded and compounded semaglutide?",
     answer:
-      "Branded semaglutide is FDA-approved Ozempic (for diabetes) or Wegovy (for weight loss). Compounded semaglutide is made by compounding pharmacies using semaglutide as an active ingredient — these are legal when branded versions are on the FDA shortage list but are not FDA-approved themselves. The cost difference is significant: branded GLP-1 drugs cost $800-$1,400/month without insurance; compounded versions run $99-$400/month. Quality compounding pharmacies produce safe, effective product, but you should verify the pharmacy is accredited.",
+      "Branded semaglutide is FDA-approved Ozempic (for diabetes) or Wegovy (for weight loss). Compounded semaglutide is made by compounding pharmacies using semaglutide as an active ingredient, these are legal when branded versions are on the FDA shortage list but are not FDA-approved themselves. The cost difference is significant: branded GLP-1 drugs cost $800-$1,400/month without insurance; compounded versions run $99-$400/month. Quality compounding pharmacies produce safe, effective product, but you should verify the pharmacy is accredited.",
   },
   {
     question: "How much does GLP-1 telehealth cost per month?",
     answer:
-      "Budget providers start around $99-149/month for the telehealth service plus medication. Premium providers with comprehensive monitoring can run $299-400+/month. The medication cost varies by provider — some include it, some bill separately. Always ask about total monthly cost including medication before signing up.",
+      "Budget providers start around $99-149/month for the telehealth service plus medication. Premium providers with comprehensive monitoring can run $299-400+/month. The medication cost varies by provider, some include it, some bill separately. Always ask about total monthly cost including medication before signing up.",
   },
   {
     question: "Which GLP-1 telehealth provider is best?",
     answer:
-      "It depends on your needs. SHED MD is the best choice for users who want real medical oversight, nutrition coaching, and ongoing monitoring — worth the higher price if you have other health conditions or are concerned about side effects. Direct Meds is the better choice for healthy adults who primarily need straightforward prescription access at lower cost. Compare state availability before choosing — not all providers serve all states.",
+      "It depends on your needs. SHED MD is the best choice for users who want real medical oversight, nutrition coaching, and ongoing monitoring, worth the higher price if you have other health conditions or are concerned about side effects. Direct Meds is the better choice for healthy adults who primarily need straightforward prescription access at lower cost. Compare state availability before choosing, not all providers serve all states.",
   },
 ];
 
@@ -93,26 +94,48 @@ export default function TelehealthGuidePage() {
         </nav>
 
         {/* Header */}
-        <header className="mb-10">
+        <header className="mb-8">
           <h1 className="font-heading text-3xl sm:text-4xl font-bold text-foreground leading-tight">
             GLP-1 Telehealth Programs Compared (2026)
           </h1>
           <p className="mt-4 text-lg text-muted-foreground leading-relaxed">
-            The telehealth GLP-1 market has exploded — and not all providers are
-            equal. Some offer genuine medical oversight with monitoring,
-            nutrition support, and follow-up care. Others are prescription mills
-            that rubber-stamp a questionnaire and send you a medication without
-            real review. The difference matters: GLP-1 medications carry real
-            side effects (nausea, GI issues, potential cardiovascular concerns in
-            some patients) that require competent medical oversight to manage
-            safely. Here is how to evaluate any GLP-1 telehealth provider: Do
-            they do a real medical consultation, or just an automated form? Do
-            they monitor for side effects? What drug are they actually prescribing
-            — branded or compounded? What does the real monthly cost look like
-            when medication is included? We reviewed two of the strongest options
-            on both ends of the market.
+            GLP-1 medications work. The data is clear: 15 to 22% body weight
+            loss in clinical trials. The question is not whether to try one. It
+            is where to get a legitimate prescription without overpaying or
+            landing with a provider that stops answering after the first
+            shipment.
+          </p>
+          <p className="mt-3 text-muted-foreground leading-relaxed">
+            We reviewed every major telehealth GLP-1 option. Two cleared the
+            bar. SHED MD leads for users who want real medical oversight. Direct
+            Meds leads for users who want lower cost and faster approval. Both
+            are covered below with full pricing, what is included, and what each
+            one does not tell you upfront.
           </p>
         </header>
+
+        {/* Quick Verdict */}
+        <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 mb-8">
+          <p className="text-sm font-semibold uppercase tracking-wider text-accent mb-2">
+            Top Pick
+          </p>
+          <p className="font-heading text-lg font-bold text-foreground mb-1">
+            SHED MD, Best for Full Medical Oversight
+          </p>
+          <p className="text-sm text-muted-foreground mb-4">
+            Real medical team, nutrition coaching, and ongoing monitoring.
+            Starting at $149/mo. Available in most US states.
+          </p>
+          <a
+            href="https://www.shedmd.com"
+            target="_blank"
+            rel="nofollow noopener noreferrer sponsored"
+            className="inline-flex items-center gap-2 rounded-lg bg-accent px-5 py-2.5 text-sm font-semibold text-accent-foreground hover:bg-accent/90 transition-colors"
+          >
+            Get Evaluated by SHED MD
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+          </a>
+        </div>
 
         {/* What to look for */}
         <div className="bg-primary/5 border border-primary/20 rounded-xl p-6 mb-10">
@@ -123,7 +146,7 @@ export default function TelehealthGuidePage() {
                 What to Look For in a GLP-1 Telehealth Provider
               </h2>
               <ul className="space-y-1 text-sm text-muted-foreground">
-                <li>• Real medical consultation — not an automated questionnaire</li>
+                <li>• Real medical consultation, not an automated questionnaire</li>
                 <li>• Licensed physicians or NPs reviewing your case</li>
                 <li>• Ongoing monitoring for side effects</li>
                 <li>• Clear disclosure of the drug (branded vs. compounded)</li>
@@ -134,6 +157,39 @@ export default function TelehealthGuidePage() {
           </div>
         </div>
 
+        {/* Compounded Semaglutide */}
+        <section className="mb-10">
+          <h2 className="font-heading text-2xl font-bold text-foreground mb-4">
+            Compounded Semaglutide: What You Need to Know
+          </h2>
+          <p className="text-muted-foreground leading-relaxed mb-3">
+            Most telehealth providers prescribe compounded semaglutide, not
+            branded Ozempic or Wegovy. Compounded means a pharmacy makes the
+            drug from raw ingredients. It is legal when the branded version is
+            on an FDA shortage list, which it has been.
+          </p>
+          <p className="text-muted-foreground leading-relaxed mb-3">
+            Compounded semaglutide is not FDA-approved. It is also not the
+            same thing as counterfeit. A good pharmacy makes a real, working
+            drug. The risk is quality control. Some pharmacies are better than
+            others. Look for an accredited pharmacy with third-party testing.
+            Ask your provider which one they use.
+          </p>
+          <p className="text-muted-foreground leading-relaxed mb-3">
+            The price gap is real. Branded Ozempic can cost $900-1,400 per
+            month without insurance. Compounded semaglutide runs $99-400 per
+            month. For most people without coverage, compounded is the only
+            option that makes sense.
+          </p>
+          <div className="bg-muted/50 border border-border rounded-lg p-4 text-sm text-muted-foreground">
+            <strong className="text-foreground">Check the shortage status.</strong>{" "}
+            The FDA shortage list changes. If branded Wegovy or Ozempic comes
+            off the shortage list, compounding pharmacies must stop making it.
+            This has happened in some markets. Ask your provider what happens
+            to your supply if that occurs.
+          </div>
+        </section>
+
         {/* Affiliate Disclosure */}
         <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 mb-10 text-sm">
           <strong className="text-amber-900">Full Affiliate Disclosure:</strong>{" "}
@@ -142,7 +198,7 @@ export default function TelehealthGuidePage() {
             MD pays us $350 for qualified signups. Direct Meds pays $280. These
             are among the highest affiliate commissions on this site. We disclose
             this because you deserve to know. Our rankings reflect genuine quality
-            differences — we highlight cons as prominently as pros regardless of
+            differences, we highlight cons as prominently as pros regardless of
             commission size.
           </span>
         </div>
@@ -150,7 +206,7 @@ export default function TelehealthGuidePage() {
         {/* Products */}
         <section className="space-y-8">
           <h2 className="font-heading text-2xl font-bold text-foreground">
-            Our Top Picks
+            Two Programs That Clear the Bar
           </h2>
 
           {telehealthPrograms.map((product, index) => {
@@ -177,9 +233,6 @@ export default function TelehealthGuidePage() {
                     <div className="text-right">
                       <p className="text-2xl font-bold text-foreground">
                         from ${product.price}/mo
-                      </p>
-                      <p className="text-xs font-medium text-accent">
-                        {product.specs["Affiliate CPA"]} affiliate commission
                       </p>
                     </div>
                   </div>
@@ -241,7 +294,7 @@ export default function TelehealthGuidePage() {
                   </div>
 
                   {/* Verdict */}
-                  <div className="mt-5 border-l-4 border-primary pl-4">
+                  <div className="mt-5 bg-primary/5 border border-primary/20 rounded-lg p-4">
                     <p className="text-sm font-semibold text-foreground mb-1">
                       Our Verdict
                     </p>
@@ -254,7 +307,7 @@ export default function TelehealthGuidePage() {
                     <a
                       href={link.url}
                       target="_blank"
-                      rel="noopener noreferrer nofollow"
+                      rel="noopener noreferrer nofollow sponsored"
                     >
                       <Button
                         size="lg"

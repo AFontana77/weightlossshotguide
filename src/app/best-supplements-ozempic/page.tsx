@@ -14,7 +14,8 @@ import { bestLink } from "@/lib/affiliate";
 export const metadata: Metadata = {
   title: "Best Supplements for Ozempic & GLP-1 Users (2026)",
   description:
-    "Evidence-based supplement recommendations for GLP-1 medication users. Creatine for muscle preservation, probiotics for GI side effects, magnesium for deficiency — what actually works.",
+    "Evidence-based supplement recommendations for GLP-1 medication users. Creatine for muscle preservation, probiotics for GI side effects, magnesium for deficiency, what actually works.",
+  alternates: { canonical: "https://www.weightlossshotguide.com/best-supplements-ozempic" },
 };
 
 const faqs = [
@@ -26,7 +27,7 @@ const faqs = [
   {
     question: "Can I take vitamins with GLP-1 medications?",
     answer:
-      "Yes. GLP-1 receptor agonists like semaglutide and tirzepatide do not interact with standard vitamins or mineral supplements. There are no pharmacological interactions to be concerned about. The bigger issue is that suppressed appetite means many GLP-1 users eat too little and develop nutritional gaps — supplementation helps close those gaps.",
+      "Yes. GLP-1 receptor agonists like semaglutide and tirzepatide do not interact with standard vitamins or mineral supplements. There are no pharmacological interactions to be concerned about. The bigger issue is that suppressed appetite means many GLP-1 users eat too little and develop nutritional gaps, supplementation helps close those gaps.",
   },
   {
     question: "Why is creatine important on GLP-1?",
@@ -104,10 +105,98 @@ export default function SupplementsPage() {
             standard probiotic advice doesn&apos;t address. Generic supplement
             recommendations don&apos;t account for any of this. Here are the
             three supplements with the strongest evidence specifically for
-            GLP-1 users — what they do, why they matter on these medications,
+            GLP-1 users, what they do, why they matter on these medications,
             and which brands meet the quality bar.
           </p>
         </header>
+
+        {/* Evidence Priority */}
+        <section className="mb-10">
+          <h2 className="font-heading text-2xl font-bold text-foreground mb-4">
+            Three Supplements With Real Evidence
+          </h2>
+          <p className="text-muted-foreground leading-relaxed mb-4">
+            Most GLP-1 supplement lists are generic health product roundups.
+            These three are different. Each one has clinical data tied to the
+            specific problems GLP-1 users face: muscle loss, GI side effects,
+            and nutrient gaps from eating very little.
+          </p>
+          <div className="overflow-x-auto border border-border rounded-lg mb-4">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="bg-muted/50 border-b border-border">
+                  <th className="text-left px-4 py-3 font-semibold text-foreground">Supplement</th>
+                  <th className="text-left px-4 py-3 font-semibold text-foreground">What It Fixes</th>
+                  <th className="text-left px-4 py-3 font-semibold text-foreground">Priority</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-border">
+                <tr>
+                  <td className="px-4 py-3 font-medium text-foreground">Creatine</td>
+                  <td className="px-4 py-3 text-muted-foreground">Muscle loss during weight loss</td>
+                  <td className="px-4 py-3 font-medium text-primary">#1, Start right away</td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-3 font-medium text-foreground">Probiotic</td>
+                  <td className="px-4 py-3 text-muted-foreground">Nausea, bloating, constipation</td>
+                  <td className="px-4 py-3 text-muted-foreground">#2, Start with the drug</td>
+                </tr>
+                <tr>
+                  <td className="px-4 py-3 font-medium text-foreground">Magnesium</td>
+                  <td className="px-4 py-3 text-muted-foreground">Low levels from eating less</td>
+                  <td className="px-4 py-3 text-muted-foreground">#3, Add in first month</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        {/* Creatine Dosing */}
+        <section className="mb-10">
+          <h2 className="font-heading text-2xl font-bold text-foreground mb-4">
+            How to Take Creatine on GLP-1
+          </h2>
+          <p className="text-muted-foreground leading-relaxed mb-3">
+            Creatine is simple. Five grams per day. No loading phase. No cycling.
+            Take it the same time each day. Mix it in water or a protein shake.
+            It has no taste.
+          </p>
+          <p className="text-muted-foreground leading-relaxed mb-3">
+            One note: creatine pulls water into muscle cells. You may see the
+            scale go up 1-2 lbs in the first week. That is water inside your
+            muscles. It is not fat. Do not stop.
+          </p>
+          <div className="bg-muted/50 border border-border rounded-lg p-4 text-sm text-muted-foreground">
+            <strong className="text-foreground">Common mistake:</strong> Taking
+            creatine only on workout days. Muscle stores build over time. Take
+            5g every day, including rest days.
+          </div>
+        </section>
+
+        {/* When to Start */}
+        <section className="mb-10">
+          <h2 className="font-heading text-2xl font-bold text-foreground mb-4">
+            When to Start Each Supplement
+          </h2>
+          <p className="text-muted-foreground leading-relaxed mb-4">
+            Do not start all three at once. If one causes a problem, you will
+            not know which one it was.
+          </p>
+          <ul className="space-y-3 text-sm text-muted-foreground">
+            <li className="flex items-start gap-3">
+              <span className="font-bold text-primary shrink-0 w-16">Week 1</span>
+              <span>Start the probiotic. GI side effects hit hardest in the first few weeks. Get ahead of it.</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="font-bold text-primary shrink-0 w-16">Week 2</span>
+              <span>Add magnesium at night. Low food intake depletes it fast. It also helps with sleep.</span>
+            </li>
+            <li className="flex items-start gap-3">
+              <span className="font-bold text-primary shrink-0 w-16">Week 4</span>
+              <span>Add creatine. Your body has had time to adjust. Start 5g per day and keep it there.</span>
+            </li>
+          </ul>
+        </section>
 
         {/* Affiliate Disclosure */}
         <div className="bg-muted/50 border border-border rounded-lg p-4 mb-10 text-sm text-muted-foreground">
@@ -208,7 +297,7 @@ export default function SupplementsPage() {
                   </div>
 
                   {/* Verdict */}
-                  <div className="mt-5 border-l-4 border-primary pl-4">
+                  <div className="mt-5 bg-primary/5 border border-primary/20 rounded-lg p-4">
                     <p className="text-sm font-semibold text-foreground mb-1">
                       Our Verdict
                     </p>
@@ -221,7 +310,7 @@ export default function SupplementsPage() {
                     <a
                       href={link.url}
                       target="_blank"
-                      rel="noopener noreferrer nofollow"
+                      rel="noopener noreferrer nofollow sponsored"
                     >
                       <Button
                         size="lg"

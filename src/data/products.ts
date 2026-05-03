@@ -224,7 +224,7 @@ export const telehealthPrograms: Product[] = [
     affiliateSource: "shed",
     image: "",
     shortDescription:
-      "$350 affiliate CPA. Full medical oversight including nutrition coaching and ongoing monitoring.",
+      "Full medical oversight including nutrition coaching and ongoing monitoring for GLP-1 side effects.",
     pros: [
       "Full medical team support — not a prescription mill",
       "Includes nutrition coaching and behavioral support",
@@ -238,7 +238,6 @@ export const telehealthPrograms: Product[] = [
     verdict:
       "The highest-quality GLP-1 telehealth provider for users who want real medical oversight. Worth the premium if you're concerned about side effects or have other health conditions.",
     specs: {
-      "Affiliate CPA": "$350",
       "Monthly cost": "Starting at $149/mo",
       Includes: "Medical team + nutrition coaching",
       States: "Most US states",
@@ -256,10 +255,10 @@ export const telehealthPrograms: Product[] = [
     affiliateSource: "directMeds",
     image: "",
     shortDescription:
-      "$280 affiliate CPA. Faster approval and lower monthly cost — solid choice for healthy adults seeking straightforward access.",
+      "Faster approval and lower monthly cost. Solid choice for healthy adults seeking straightforward access to compounded semaglutide.",
     pros: [
-      "$280 CPA for affiliates",
       "Faster approval process (3-5 days)",
+      "Flexible payment options available",
       "Lower monthly cost than premium providers",
       "Generic semaglutide available",
     ],
@@ -270,7 +269,6 @@ export const telehealthPrograms: Product[] = [
     verdict:
       "The budget-conscious choice for healthy adults who need straightforward GLP-1 access. Solid option if you have a clear health picture and primarily need prescription access.",
     specs: {
-      "Affiliate CPA": "$280",
       "Monthly cost": "Starting at $99/mo",
       "Approval time": "3-5 days typical",
       Drug: "Semaglutide (generic)",

@@ -4,7 +4,8 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "About Weight Loss Shot Guide",
   description:
-    "About Weight Loss Shot Guide — who we are, who this site is for, and how we make money through affiliate partnerships.",
+    "About Weight Loss Shot Guide, who we are, who this site is for, and how we make money through affiliate partnerships.",
+  alternates: { canonical: "https://www.weightlossshotguide.com/about" },
 };
 
 export default function AboutPage() {
@@ -29,14 +30,14 @@ export default function AboutPage() {
             or any other GLP-1 receptor agonist and want specific, evidence-based
             guidance on the products and strategies that matter for their
             situation. Generic supplement and nutrition advice doesn&apos;t account for
-            the realities of GLP-1 use — suppressed appetite, changed gut motility,
+            the realities of GLP-1 use, suppressed appetite, changed gut motility,
             rapid weight loss, and the muscle preservation challenge that most
             people aren&apos;t warned about.
           </p>
           <p className="mt-3">
             We cover protein supplements, targeted supplements (creatine,
             probiotics, magnesium), telehealth programs, and body composition
-            monitoring tools — specifically reviewed through the lens of what
+            monitoring tools, specifically reviewed through the lens of what
             works differently and better for GLP-1 users.
           </p>
         </section>
@@ -49,13 +50,13 @@ export default function AboutPage() {
             We don&apos;t provide medical advice, prescribe medications, or replace your
             relationship with your doctor. GLP-1 medications require medical
             oversight. Everything on this site is informational and supplemental
-            to — not a substitute for — professional medical guidance.
+            to, not a substitute for, professional medical guidance.
           </p>
         </section>
 
         <section id="affiliate-disclosure">
           <h2 className="font-heading text-xl font-bold text-foreground mb-3">
-            Affiliate Disclosure — How We Make Money
+            Affiliate Disclosure, How We Make Money
           </h2>
           <p>
             Weight Loss Shot Guide earns revenue through affiliate partnerships. When you
@@ -80,7 +81,7 @@ export default function AboutPage() {
           <p className="mt-4">
             We disclose commission amounts because transparency matters,
             especially on high-commission pages like our telehealth guide. Our
-            rankings are based on genuine quality assessments — we highlight
+            rankings are based on genuine quality assessments, we highlight
             cons as prominently as pros regardless of commission size. A product
             that pays us more doesn&apos;t get a higher rating.
           </p>

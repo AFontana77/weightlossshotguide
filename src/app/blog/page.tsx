@@ -4,16 +4,17 @@ import { ArrowRight } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 export const metadata: Metadata = {
-  title: "GLP-1 Blog — Nutrition, Supplements & Tracking Guides",
+  title: "GLP-1 Blog, Nutrition, Supplements & Tracking Guides",
   description:
     "Evidence-based articles for GLP-1 medication users. Protein strategy, supplement guides, drug comparisons, and body composition tracking for Ozempic, Wegovy, and Mounjaro users.",
+  alternates: { canonical: "https://www.weightlossshotguide.com/blog" },
 };
 
 const articles = [
   {
     title: "What to Eat on Ozempic: The Muscle-Preserving Protein Strategy",
     description:
-      "The hidden risk of GLP-1 weight loss is muscle loss, not just fat. Here's how to hit your protein targets when you're barely hungry — and which foods and supplements make it achievable.",
+      "The hidden risk of GLP-1 weight loss is muscle loss, not just fat. Here's how to hit your protein targets when you're barely hungry, and which foods and supplements make it achievable.",
     href: "/blog/what-to-eat-on-ozempic",
     category: "Nutrition",
     readTime: "7 min read",
@@ -37,7 +38,7 @@ const articles = [
   {
     title: "Why the Scale Lies on GLP-1: Track Body Composition Instead",
     description:
-      "You can lose 30 lbs and end up with a higher body fat percentage. Here's how to track what actually matters — fat mass, lean mass, and visceral fat — and what tools make it practical.",
+      "You can lose 30 lbs and end up with a higher body fat percentage. Here's how to track what actually matters, fat mass, lean mass, and visceral fat, and what tools make it practical.",
     href: "/blog/glp1-body-composition-tracking",
     category: "Tracking",
     readTime: "6 min read",
