@@ -11,6 +11,7 @@ import {
 import { telehealthPrograms } from "@/data/products";
 import { bestLink } from "@/lib/affiliate";
 import { QuickVerdictBox } from "@/components/ui/quick-verdict-box";
+import { StickyCTA } from "@/components/ui/sticky-cta";
 
 export const metadata: Metadata = {
   title: "GLP-1 Telehealth Programs Compared (2026), Ozempic & Semaglutide Online",
@@ -381,6 +382,12 @@ export default function TelehealthGuidePage() {
           </div>
         </section>
       </div>
+      <StickyCTA
+        productName="SHED MD"
+        price="from $149/mo"
+        ctaUrl="https://www.shedmd.com"
+        ctaLabel="Get Evaluated"
+      />
     </>
   );
 }

@@ -11,6 +11,7 @@ import {
 import { bodyMonitors } from "@/data/products";
 import { bestLink } from "@/lib/affiliate";
 import { QuickVerdictBox } from "@/components/ui/quick-verdict-box";
+import { StickyCTA } from "@/components/ui/sticky-cta";
 
 export const metadata: Metadata = {
   title: "Best Body Composition Monitors for GLP-1 Users (2026)",
@@ -376,6 +377,12 @@ export default function BodyMonitorPage() {
           </Link>
         </section>
       </div>
+      <StickyCTA
+        productName="Withings Body Comp Scale"
+        price="$159"
+        ctaUrl="https://www.amazon.com/dp/B09NMR7Z4M?tag=weightlossshotguide-20"
+        ctaLabel="Check Price on Amazon"
+      />
     </>
   );
 }

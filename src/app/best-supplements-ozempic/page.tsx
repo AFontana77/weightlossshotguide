@@ -11,6 +11,7 @@ import {
 import { supplementProducts } from "@/data/products";
 import { bestLink } from "@/lib/affiliate";
 import { QuickVerdictBox } from "@/components/ui/quick-verdict-box";
+import { StickyCTA } from "@/components/ui/sticky-cta";
 
 export const metadata: Metadata = {
   title: "Best Supplements for Ozempic & GLP-1 Users (2026)",
@@ -378,6 +379,12 @@ export default function SupplementsPage() {
           </Link>
         </section>
       </div>
+      <StickyCTA
+        productName="Thorne Creatine Monohydrate"
+        price="$35"
+        ctaUrl="https://www.amazon.com/dp/B0013OQKNS?tag=weightlossshotguide-20"
+        ctaLabel="Check Price on Amazon"
+      />
     </>
   );
 }

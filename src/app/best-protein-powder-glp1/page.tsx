@@ -11,6 +11,7 @@ import {
 import { proteinShakes } from "@/data/products";
 import { bestLink } from "@/lib/affiliate";
 import { QuickVerdictBox } from "@/components/ui/quick-verdict-box";
+import { StickyCTA } from "@/components/ui/sticky-cta";
 
 export const metadata: Metadata = {
   title: "Best Protein Powders for GLP-1 Users (2026)",
@@ -413,6 +414,12 @@ export default function ProteinPowderPage() {
           </Link>
         </section>
       </div>
+      <StickyCTA
+        productName="Fairlife Core Power Elite"
+        price="$44"
+        ctaUrl="https://www.amazon.com/dp/B07WLRG765?tag=weightlossshotguide-20"
+        ctaLabel="Check Price on Amazon"
+      />
     </>
   );
 }
