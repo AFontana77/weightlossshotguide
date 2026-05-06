@@ -10,6 +10,7 @@ import {
 } from "@/components/schema/json-ld";
 import { bodyMonitors } from "@/data/products";
 import { bestLink } from "@/lib/affiliate";
+import { QuickVerdictBox } from "@/components/ui/quick-verdict-box";
 
 export const metadata: Metadata = {
   title: "Best Body Composition Monitors for GLP-1 Users (2026)",
@@ -98,6 +99,17 @@ export default function BodyMonitorPage() {
           <h1 className="font-heading text-3xl sm:text-4xl font-bold text-foreground leading-tight">
             Best Body Composition Monitors for GLP-1 Users (2026)
           </h1>
+
+          <QuickVerdictBox
+            winnerName="Withings Body Comp Scale"
+            winnerCategory="Body Composition Monitor"
+            dreamOutcomeChain="Track fat loss vs muscle loss every morning so you know whether your GLP-1 is burning fat or muscle, so you can fix your protein before the damage becomes permanent."
+            proofPoint="Measures body fat, visceral fat, bone mass, and muscle score. Wi-Fi sync to Health Mate app. Works with Apple Health and Google Fit."
+            affiliateUrl="https://www.amazon.com/dp/B09NMR7Z4M?tag=weightlossshotguide-20"
+            ctaLabel="Check Price on Amazon"
+            riskReversal="30-day Amazon returns. Prime shipping."
+          />
+
           <p className="mt-4 text-lg text-muted-foreground leading-relaxed">
             The number on the scale is the most misleading metric you can track
             on GLP-1 medications. Rapid weight loss without enough protein and

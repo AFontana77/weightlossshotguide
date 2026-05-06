@@ -10,6 +10,7 @@ import {
 } from "@/components/schema/json-ld";
 import { telehealthPrograms } from "@/data/products";
 import { bestLink } from "@/lib/affiliate";
+import { QuickVerdictBox } from "@/components/ui/quick-verdict-box";
 
 export const metadata: Metadata = {
   title: "GLP-1 Telehealth Programs Compared (2026), Ozempic & Semaglutide Online",
@@ -98,6 +99,17 @@ export default function TelehealthGuidePage() {
           <h1 className="font-heading text-3xl sm:text-4xl font-bold text-foreground leading-tight">
             GLP-1 Telehealth Programs Compared (2026)
           </h1>
+
+          <QuickVerdictBox
+            winnerName="SHED MD"
+            winnerCategory="GLP-1 Telehealth Program"
+            dreamOutcomeChain="Get a doctor-prescribed GLP-1 shipped this week so the medication you've already decided on arrives before willpower runs dry, so the weight comes off and stays off and your doctor stops warning you about diabetes."
+            proofPoint="Real medical consultation. Licensed physicians. Ongoing monitoring. Starting at $149/mo."
+            affiliateUrl="https://www.shedmd.com"
+            ctaLabel="Get Evaluated by SHED MD"
+            riskReversal="No long-term contract required. Cancel any time."
+          />
+
           <p className="mt-4 text-lg text-muted-foreground leading-relaxed">
             GLP-1 medications work. The data is clear: 15 to 22% body weight
             loss in clinical trials. The question is not whether to try one. It

@@ -10,6 +10,7 @@ import {
 } from "@/components/schema/json-ld";
 import { proteinShakes } from "@/data/products";
 import { bestLink } from "@/lib/affiliate";
+import { QuickVerdictBox } from "@/components/ui/quick-verdict-box";
 
 export const metadata: Metadata = {
   title: "Best Protein Powders for GLP-1 Users (2026)",
@@ -98,6 +99,17 @@ export default function ProteinPowderPage() {
           <h1 className="font-heading text-3xl sm:text-4xl font-bold text-foreground leading-tight">
             Best Protein Powders for GLP-1 Users (2026)
           </h1>
+
+          <QuickVerdictBox
+            winnerName="Fairlife Core Power Elite"
+            winnerCategory="GLP-1 Protein Supplement"
+            dreamOutcomeChain="Hit your daily protein target on GLP-1 even when your stomach wants nothing, so you keep the muscle the drug helps you lose, so the weight that comes off stays off."
+            proofPoint="42g protein per bottle. Casein plus whey blend. Zero prep. Available at Walmart, Costco, and Amazon."
+            affiliateUrl="https://www.amazon.com/dp/B07WLRG765?tag=weightlossshotguide-20"
+            ctaLabel="Check Price on Amazon"
+            riskReversal="30-day Amazon returns. Prime shipping."
+          />
+
           <p className="mt-4 text-lg text-muted-foreground leading-relaxed">
             Protein is the single most important nutritional variable for anyone
             on Ozempic, Wegovy, or Mounjaro. GLP-1 medications suppress appetite

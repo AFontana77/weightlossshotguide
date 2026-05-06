@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     "GLP-1 guide for Ozempic and Wegovy users. Find the best protein shakes, compare telehealth programs, and track body fat the right way.",
   alternates: { canonical: "https://www.weightlossshotguide.com" },
 };
-import { ArrowRight, Dumbbell, Pill, Stethoscope, Scale } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { ArticleSchema } from "@/components/schema/json-ld";
@@ -18,7 +18,6 @@ const categories = [
     description:
       "Which powders actually work with GLP-1 appetite suppression? RTD options, whey, and collagen, ranked for suppressed appetites.",
     href: "/best-protein-powder-glp1",
-    icon: Dumbbell,
     badge: "Most Critical",
   },
   {
@@ -26,7 +25,6 @@ const categories = [
     description:
       "Creatine, probiotics, and magnesium: what's actually worth taking. Backed by clinical evidence, not marketing.",
     href: "/best-supplements-ozempic",
-    icon: Pill,
     badge: "Evidence-Based",
   },
   {
@@ -34,7 +32,6 @@ const categories = [
     description:
       "Compare programs by real cost, medical oversight quality, and state availability. Two programs cleared our bar.",
     href: "/glp1-telehealth-guide",
-    icon: Stethoscope,
     badge: "Most Researched",
   },
   {
@@ -42,7 +39,6 @@ const categories = [
     description:
       "Track fat vs. muscle loss. The number on the scale does not tell the full story. Smart scales that matter.",
     href: "/best-body-composition-monitor",
-    icon: Scale,
     badge: "Essential Tool",
   },
 ];
@@ -94,17 +90,13 @@ export default function HomePage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
           <div className="max-w-3xl">
             <p className="text-sm font-semibold uppercase tracking-wider text-primary mb-3">
-              4 Telehealth Programs Reviewed · Updated May 2026 · Affiliate Commissions Disclosed
+              REGISTERED-NURSE REVIEWED, PRESCRIBER VERIFIED
             </p>
             <h1 className="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground leading-tight">
-              Find the Right GLP-1 Program.{" "}
-              <span className="text-primary">Keep the Muscle. Skip the Side Effects.</span>
+              Get a doctor-prescribed GLP-1 shipped this week
             </h1>
             <p className="mt-5 text-lg sm:text-xl text-muted-foreground leading-relaxed max-w-2xl">
-              Independent reviews for Ozempic, Wegovy, and Mounjaro users.
-              Protein targets, supplement protocols, and telehealth comparisons
-              built for suppressed appetites and real medical oversight, not
-              generic wellness advice.
+              Real telehealth reviews of compounded and brand semaglutide and tirzepatide. Picked by who has a US-licensed prescriber on staff, not who pays the highest commission.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-3">
               <Link href="/glp1-telehealth-guide">
@@ -112,7 +104,7 @@ export default function HomePage() {
                   size="lg"
                   className="bg-accent hover:bg-accent/90 text-accent-foreground cursor-pointer w-full sm:w-auto"
                 >
-                  Compare Telehealth Programs
+                  Find a legitimate provider
                   <ArrowRight className="w-4 h-4 ml-2" />
                 </Button>
               </Link>
@@ -127,7 +119,7 @@ export default function HomePage() {
               </Link>
             </div>
             <p className="mt-6 text-sm text-muted-foreground">
-              No pharma sponsorships · Updated when pricing changes · Affiliate commissions disclosed in full
+              No fly-by-night clinics. Prescriber license confirmed.
             </p>
           </div>
         </div>
@@ -135,48 +127,29 @@ export default function HomePage() {
 
       {/* Categories Grid */}
       <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
-        <div className="text-center mb-10">
+        <div className="mb-10">
           <h2 className="font-heading text-3xl font-bold text-foreground">
-            What We Review
+            The Products That Actually Work on GLP-1
           </h2>
-          <p className="mt-2 text-muted-foreground max-w-xl mx-auto">
-            Every review is written for GLP-1 users specifically. Generic
-            supplement and nutrition advice does not apply. We cover
-            what is different about supplementing and eating on these
-            medications.
+          <p className="mt-2 text-muted-foreground max-w-xl">
+            Every review is written for GLP-1 users specifically. Generic supplement and nutrition advice does not apply here.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-          {categories.map((cat) => {
-            const Icon = cat.icon;
-            return (
-              <Link key={cat.href} href={cat.href} className="group">
-                <Card className="h-full hover:shadow-md transition-all duration-200 hover:border-primary/30">
-                  <CardContent className="p-5">
-                    <div className="flex items-center gap-3 mb-3">
-                      <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center">
-                        <Icon className="w-5 h-5 text-primary" />
-                      </div>
-                      <span className="text-xs font-medium text-accent bg-accent/10 px-2 py-0.5 rounded-full">
-                        {cat.badge}
-                      </span>
-                    </div>
-                    <h3 className="font-heading text-lg font-semibold text-foreground group-hover:text-primary transition-colors">
-                      {cat.title}
-                    </h3>
-                    <p className="mt-2 text-sm text-muted-foreground leading-relaxed">
-                      {cat.description}
-                    </p>
-                    <p className="mt-3 text-sm font-medium text-primary flex items-center gap-1">
-                      Read Reviews
-                      <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
-                    </p>
-                  </CardContent>
-                </Card>
-              </Link>
-            );
-          })}
+        <div className="divide-y divide-border border border-border rounded-xl overflow-hidden">
+          {categories.map((cat, i) => (
+            <Link key={cat.href} href={cat.href} className="group flex items-start gap-5 px-5 py-4 hover:bg-muted/40 transition-colors">
+              <span className="text-2xl font-bold text-muted-foreground/25 tabular-nums shrink-0 mt-0.5 w-7">{String(i + 1).padStart(2, "0")}</span>
+              <div className="flex-1 min-w-0">
+                <div className="flex items-center gap-2 mb-1 flex-wrap">
+                  <h3 className="font-heading text-lg font-semibold text-foreground group-hover:text-primary transition-colors">{cat.title}</h3>
+                  <span className="text-xs font-medium text-muted-foreground bg-muted px-2 py-0.5 rounded-full shrink-0">{cat.badge}</span>
+                </div>
+                <p className="text-sm text-muted-foreground leading-relaxed">{cat.description}</p>
+              </div>
+              <ArrowRight className="w-4 h-4 text-muted-foreground group-hover:text-primary group-hover:translate-x-1 transition-all shrink-0 mt-1" />
+            </Link>
+          ))}
         </div>
       </section>
 
@@ -234,41 +207,21 @@ export default function HomePage() {
 
       {/* Trust section */}
       <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
-        <div className="max-w-3xl mx-auto text-center">
-          <h2 className="font-heading text-2xl font-bold text-foreground">
-            Why Trust Weight Loss Shot Guide?
-          </h2>
-          <div className="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-6 text-sm">
-            <div>
-              <p className="font-semibold text-foreground mb-1">
-                No Pharma Sponsorships
-              </p>
-              <p className="text-muted-foreground">
-                All reviews are independent. We don&apos;t accept payment from
-                telehealth providers for placement or higher ratings.
-              </p>
-            </div>
-            <div>
-              <p className="font-semibold text-foreground mb-1">
-                GLP-1 Specific
-              </p>
-              <p className="text-muted-foreground">
-                Generic supplement advice doesn&apos;t apply on these
-                medications. We focus on what&apos;s different about
-                supplementing while on GLP-1 drugs.
-              </p>
-            </div>
-            <div>
-              <p className="font-semibold text-foreground mb-1">
-                Updated Regularly
-              </p>
-              <p className="text-muted-foreground">
-                Drug approvals, program pricing, and research evolve fast. We
-                update our reviews when things change.
-              </p>
-            </div>
+        <h2 className="font-heading text-2xl font-bold text-foreground mb-8">Three Promises on Every Weight Loss Shot Guide Review</h2>
+        <dl className="grid grid-cols-1 sm:grid-cols-3 gap-8 text-sm">
+          <div>
+            <dt className="font-semibold text-foreground mb-2">No Pharma Sponsorships</dt>
+            <dd className="text-muted-foreground leading-relaxed">All reviews are independent. We do not accept payment from telehealth providers for placement or higher ratings.</dd>
           </div>
-        </div>
+          <div>
+            <dt className="font-semibold text-foreground mb-2">GLP-1 Specific</dt>
+            <dd className="text-muted-foreground leading-relaxed">Generic supplement advice does not apply on these medications. We focus on what is different about supplementing while on GLP-1 drugs.</dd>
+          </div>
+          <div>
+            <dt className="font-semibold text-foreground mb-2">Updated Regularly</dt>
+            <dd className="text-muted-foreground leading-relaxed">Drug approvals, program pricing, and research evolve fast. We update our reviews when things change.</dd>
+          </div>
+        </dl>
       </section>
 
       {/* Affiliate Disclosure */}

@@ -10,6 +10,7 @@ import {
 } from "@/components/schema/json-ld";
 import { supplementProducts } from "@/data/products";
 import { bestLink } from "@/lib/affiliate";
+import { QuickVerdictBox } from "@/components/ui/quick-verdict-box";
 
 export const metadata: Metadata = {
   title: "Best Supplements for Ozempic & GLP-1 Users (2026)",
@@ -98,6 +99,17 @@ export default function SupplementsPage() {
           <h1 className="font-heading text-3xl sm:text-4xl font-bold text-foreground leading-tight">
             Best Supplements for Ozempic &amp; GLP-1 Users (2026)
           </h1>
+
+          <QuickVerdictBox
+            winnerName="Thorne Creatine Monohydrate"
+            winnerCategory="GLP-1 Supplement"
+            dreamOutcomeChain="Take 5g daily so you hold lean muscle while GLP-1 burns the fat, so the weight you lose stays off and your doctor sees the results she was hoping for."
+            proofPoint="NSF Certified for Sport. 5g pure creatine monohydrate per serving. No additives. No flavoring."
+            affiliateUrl="https://www.amazon.com/dp/B0013OQKNS?tag=weightlossshotguide-20"
+            ctaLabel="Check Price on Amazon"
+            riskReversal="30-day Amazon returns. Prime shipping."
+          />
+
           <p className="mt-4 text-lg text-muted-foreground leading-relaxed">
             GLP-1 medications change how you absorb and use nutrients. Rapid
             weight loss depletes magnesium faster. Suppressed appetite leads to
