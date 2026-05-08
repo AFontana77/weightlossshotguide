@@ -44,7 +44,8 @@ export default function CheapestGlp1OptionsPage() {
   return (
     <>
       <ArticleSchema
-        headline="Cheapest GLP-1 Options in 2026: From $99/mo to Branded"
+        title="Cheapest GLP-1 Options in 2026: From $99/mo to Branded"
+        description="Ranked by monthly cost: compounded semaglutide, savings cards, and branded GLP-1 medications. How to get the lowest price on Ozempic, Wegovy, Mounjaro, and Zepbound."
         datePublished="2026-05-08"
         dateModified="2026-05-08"
         url={`${BASE}/cheapest-glp1-options`}

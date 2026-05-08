@@ -43,7 +43,8 @@ export default function Glp1WithoutInsurancePage() {
   return (
     <>
       <ArticleSchema
-        headline="How to Get GLP-1 Medications Without Insurance in 2026"
+        title="How to Get GLP-1 Medications Without Insurance in 2026"
+        description="Every option for getting Ozempic, Wegovy, Mounjaro, or Zepbound without insurance: savings cards, compounding pharmacies, patient assistance programs, and telehealth."
         datePublished="2026-05-08"
         dateModified="2026-05-08"
         url={`${BASE}/glp1-without-insurance`}

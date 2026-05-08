@@ -43,7 +43,8 @@ export default function OzempicVsMounjaroPage() {
   return (
     <>
       <ArticleSchema
-        headline="Ozempic vs Mounjaro (2026): Which Is Better?"
+        title="Ozempic vs Mounjaro (2026): Which Is Better?"
+        description="Ozempic vs Mounjaro compared. Active ingredients, weight loss data, cost, savings cards, and how to access each through telehealth."
         datePublished="2026-05-08"
         dateModified="2026-05-08"
         url={`${BASE}/ozempic-vs-mounjaro`}
