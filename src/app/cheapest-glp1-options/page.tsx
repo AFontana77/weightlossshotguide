@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Shield } from "lucide-react";
 import { ArticleSchema, FAQSchema, BreadcrumbSchema } from "@/components/schema/json-ld";
 import { QuickVerdictBox } from "@/components/ui/quick-verdict-box";
+import { TopPickHighlight } from "@/components/effects/top-pick-highlight";
 
 const BASE = "https://www.weightlossshotguide.com";
 
@@ -180,6 +181,7 @@ export default function CheapestGlp1OptionsPage() {
 
         {/* Manufacturer Savings Programs */}
         <h2 className="text-2xl font-bold mt-10 mb-3">Manufacturer Savings Programs</h2>
+        <TopPickHighlight hue={213} ariaLabel="GLP-1 manufacturer savings programs comparison">
         <div className="overflow-x-auto mb-8">
           <table className="min-w-full text-sm border-collapse">
             <thead>
@@ -207,6 +209,7 @@ export default function CheapestGlp1OptionsPage() {
             </tbody>
           </table>
         </div>
+        </TopPickHighlight>
 
         {/* GoodRx Note */}
         <h2 className="text-2xl font-bold mt-10 mb-3">GoodRx and Discount Cards</h2>
