@@ -43,6 +43,37 @@ const categories = [
   },
 ];
 
+const medicationHubs = [
+  {
+    title: "Zepbound",
+    description:
+      "FDA-approved tirzepatide for weight loss. SURMOUNT-1 data shows 20.9% average body weight loss. How it works, dosing schedule, and who qualifies.",
+    href: "/zepbound",
+    badge: "823K Searches/Mo",
+  },
+  {
+    title: "Mounjaro",
+    description:
+      "Tirzepatide for type 2 diabetes. SURPASS trials show 25 lbs average loss at 15 mg. Lilly $25/month savings card explained.",
+    href: "/mounjaro",
+    badge: "673K Searches/Mo",
+  },
+  {
+    title: "Tirzepatide",
+    description:
+      "The GIP + GLP-1 dual agonist behind both Mounjaro and Zepbound. How the mechanism works and what it means for weight loss vs semaglutide.",
+    href: "/tirzepatide",
+    badge: "673K Searches/Mo",
+  },
+  {
+    title: "Compounding Pharmacies",
+    description:
+      "How to find a legitimate compounding pharmacy for GLP-1 medication. 503A vs 503B, what to verify, and which telehealth platforms we trust.",
+    href: "/compounding-pharmacies",
+    badge: "Directory",
+  },
+];
+
 const featuredArticles = [
   {
     title: "What to Eat on Ozempic: The Muscle-Preserving Protein Strategy",
@@ -150,6 +181,36 @@ export default function HomePage() {
               <ArrowRight className="w-4 h-4 text-muted-foreground group-hover:text-primary group-hover:translate-x-1 transition-all shrink-0 mt-1" />
             </Link>
           ))}
+        </div>
+      </section>
+
+      {/* Medications Hub */}
+      <section className="bg-muted/30 border-y border-border">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
+          <div className="mb-10">
+            <h2 className="font-heading text-3xl font-bold text-foreground">
+              GLP-1 Medication Guides
+            </h2>
+            <p className="mt-2 text-muted-foreground max-w-xl">
+              Clinical data, dosing schedules, and cost breakdowns for every major GLP-1 drug.
+            </p>
+          </div>
+
+          <div className="divide-y divide-border border border-border rounded-xl overflow-hidden bg-card">
+            {medicationHubs.map((med, i) => (
+              <Link key={med.href} href={med.href} className="group flex items-start gap-5 px-5 py-4 hover:bg-muted/40 transition-colors">
+                <span className="text-2xl font-bold text-muted-foreground/25 tabular-nums shrink-0 mt-0.5 w-7">{String(i + 1).padStart(2, "0")}</span>
+                <div className="flex-1 min-w-0">
+                  <div className="flex items-center gap-2 mb-1 flex-wrap">
+                    <h3 className="font-heading text-lg font-semibold text-foreground group-hover:text-primary transition-colors">{med.title}</h3>
+                    <span className="text-xs font-medium text-muted-foreground bg-muted px-2 py-0.5 rounded-full shrink-0">{med.badge}</span>
+                  </div>
+                  <p className="text-sm text-muted-foreground leading-relaxed">{med.description}</p>
+                </div>
+                <ArrowRight className="w-4 h-4 text-muted-foreground group-hover:text-primary group-hover:translate-x-1 transition-all shrink-0 mt-1" />
+              </Link>
+            ))}
+          </div>
         </div>
       </section>
 

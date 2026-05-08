@@ -7,6 +7,15 @@ const reviewLinks = [
   { name: "Body Composition Monitors", href: "/best-body-composition-monitor" },
 ];
 
+const medicationLinks = [
+  { name: "Zepbound", href: "/zepbound" },
+  { name: "Mounjaro", href: "/mounjaro" },
+  { name: "Tirzepatide", href: "/tirzepatide" },
+  { name: "Compounding Pharmacies", href: "/compounding-pharmacies" },
+  { name: "Compounded Semaglutide", href: "/compounded-semaglutide" },
+  { name: "Cheapest GLP-1 Options", href: "/cheapest-glp1-options" },
+];
+
 const learnLinks = [
   { name: "Blog", href: "/blog" },
   { name: "About", href: "/about" },
@@ -20,7 +29,7 @@ export function Footer() {
   return (
     <footer className="bg-card border-t border-border mt-16">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Brand */}
           <div>
             <Link href="/" className="flex items-center gap-2">
@@ -59,10 +68,23 @@ export function Footer() {
             <ul className="space-y-2">
               {reviewLinks.map((link) => (
                 <li key={link.href}>
-                  <Link
-                    href={link.href}
-                    className="text-sm text-muted-foreground hover:text-primary transition-colors"
-                  >
+                  <Link href={link.href} className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                    {link.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Medications */}
+          <div>
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-foreground mb-3">
+              Medications
+            </h3>
+            <ul className="space-y-2">
+              {medicationLinks.map((link) => (
+                <li key={link.href}>
+                  <Link href={link.href} className="text-sm text-muted-foreground hover:text-primary transition-colors">
                     {link.name}
                   </Link>
                 </li>
@@ -78,10 +100,7 @@ export function Footer() {
             <ul className="space-y-2">
               {learnLinks.map((link) => (
                 <li key={link.href}>
-                  <Link
-                    href={link.href}
-                    className="text-sm text-muted-foreground hover:text-primary transition-colors"
-                  >
+                  <Link href={link.href} className="text-sm text-muted-foreground hover:text-primary transition-colors">
                     {link.name}
                   </Link>
                 </li>

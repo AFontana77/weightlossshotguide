@@ -12,6 +12,15 @@ const productLinks = [
   { name: "Body Monitors", href: "/best-body-composition-monitor" },
 ];
 
+const drugLinks = [
+  { name: "Zepbound", href: "/zepbound" },
+  { name: "Mounjaro", href: "/mounjaro" },
+  { name: "Tirzepatide", href: "/tirzepatide" },
+  { name: "Compounding Pharmacies", href: "/compounding-pharmacies" },
+  { name: "503A vs 503B Explained", href: "/503a-vs-503b-pharmacies" },
+  { name: "Cheapest GLP-1 Options", href: "/cheapest-glp1-options" },
+];
+
 const navLinks = [
   { name: "Blog", href: "/blog" },
   { name: "About", href: "/about" },
@@ -45,6 +54,7 @@ export function Header() {
 
           {/* Desktop Nav */}
           <nav className="hidden lg:flex items-center gap-1">
+            {/* Products dropdown */}
             <div className="relative group">
               <button className="flex items-center gap-1 px-3 py-2 text-sm font-medium text-muted-foreground hover:text-foreground transition-colors cursor-pointer">
                 Products
@@ -53,6 +63,27 @@ export function Header() {
               <div className="absolute left-0 top-full pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
                 <div className="bg-card rounded-lg shadow-lg border border-border p-2 min-w-[220px]">
                   {productLinks.map((link) => (
+                    <Link
+                      key={link.href}
+                      href={link.href}
+                      className="block px-3 py-2 text-sm text-muted-foreground hover:text-foreground hover:bg-muted rounded-md transition-colors"
+                    >
+                      {link.name}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            {/* Drugs & Pharmacies dropdown */}
+            <div className="relative group">
+              <button className="flex items-center gap-1 px-3 py-2 text-sm font-medium text-muted-foreground hover:text-foreground transition-colors cursor-pointer">
+                Medications
+                <ChevronDown className="w-4 h-4" />
+              </button>
+              <div className="absolute left-0 top-full pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+                <div className="bg-card rounded-lg shadow-lg border border-border p-2 min-w-[240px]">
+                  {drugLinks.map((link) => (
                     <Link
                       key={link.href}
                       href={link.href}
@@ -111,6 +142,20 @@ export function Header() {
               Products
             </p>
             {productLinks.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="block px-2 py-2 text-sm text-foreground hover:text-primary hover:bg-muted rounded-md transition-colors"
+                onClick={() => setMobileOpen(false)}
+              >
+                {link.name}
+              </Link>
+            ))}
+            <hr className="border-border my-2" />
+            <p className="text-xs font-semibold uppercase tracking-wider text-muted-foreground px-2 pb-2">
+              Medications
+            </p>
+            {drugLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
