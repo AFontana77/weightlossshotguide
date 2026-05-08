@@ -30,7 +30,7 @@ export const proteinShakes: Product[] = [
       "Limited flavor options vs powder",
     ],
     verdict:
-      "The single best protein option for GLP-1 users who struggle to eat enough whole food. At 42g per bottle with zero prep, it solves the hardest problem of high-protein eating on a suppressed appetite.",
+      "The single best protein option for GLP-1 users who struggle to eat enough whole food. At 42g per bottle with zero prep, it solves the hardest problem of high-protein eating on a suppressed appetite, so you hit 100g of protein daily even on days when food is the last thing you want, so the weight you lose on semaglutide stays lost because you kept the muscle.",
     specs: {
       Protein: "42g",
       Calories: "230",
@@ -62,7 +62,7 @@ export const proteinShakes: Product[] = [
       "Slower than hydrolyzed whey for absorption",
     ],
     verdict:
-      "The best-value option once you're past the initial GLP-1 adjustment period and can tolerate powder. Unbeatable price per gram of protein.",
+      "The best-value option once you are past the initial GLP-1 adjustment period and can tolerate powder. Unbeatable price per gram of protein, so maintaining 120g of daily protein costs under $1 per day, so the supplement budget that protects your muscle mass does not compete with the medication budget.",
     specs: {
       Protein: "25g",
       Calories: "120",
@@ -94,7 +94,7 @@ export const proteinShakes: Product[] = [
       "Lower protein density per dollar than whey",
     ],
     verdict:
-      "Not a replacement for whey or casein — but an essential add-on for GLP-1 users concerned about skin changes from rapid weight loss. Add to coffee, soup, or smoothies.",
+      "Not a replacement for whey or casein, but an essential add-on for GLP-1 users concerned about skin changes from rapid weight loss. Add to coffee, soup, or smoothies, so you get 18g of collagen protein without any extra step in your routine, so skin elasticity has the building blocks it needs while your body reshapes.",
     specs: {
       Protein: "18g collagen",
       Calories: "70",
@@ -133,7 +133,7 @@ export const supplementProducts: Product[] = [
       "No taste appeal on its own",
     ],
     verdict:
-      "Non-negotiable for anyone on GLP-1 medications. Creatine has stronger clinical evidence than any other supplement for preserving lean muscle during rapid weight loss. Use 5g daily.",
+      "Non-negotiable for anyone on GLP-1 medications. Creatine has stronger clinical evidence than any other supplement for preserving lean muscle during rapid weight loss, so the 20 lbs you lose on semaglutide is 20 lbs of fat, not 10 lbs of fat and 10 lbs of muscle you spend the next year trying to rebuild. Use 5g daily.",
     specs: {
       Dose: "5g creatine monohydrate",
       Servings: "90",
@@ -165,7 +165,7 @@ export const supplementProducts: Product[] = [
       "Higher price than generic probiotics",
     ],
     verdict:
-      "GLP-1 medications significantly change gut motility. A high-quality multi-strain probiotic directly addresses the nausea, constipation, and digestive discomfort that sends many users back to their doctor.",
+      "GLP-1 medications significantly change gut motility. A high-quality multi-strain probiotic directly addresses the nausea, constipation, and digestive discomfort that sends many users back to their doctor, so you stay on the medication through the first 8 weeks when results compound, so the weight loss continues instead of stopping at the first side effect.",
     specs: {
       CFU: "50 billion",
       Strains: "16",
@@ -197,7 +197,7 @@ export const supplementProducts: Product[] = [
       "Takes 2-4 weeks for full effect",
     ],
     verdict:
-      "Magnesium deficiency is common and worsens during rapid weight loss. Bisglycinate specifically avoids the diarrhea effect that makes other forms impractical at therapeutic doses.",
+      "Magnesium deficiency is common and worsens during rapid weight loss. Bisglycinate specifically avoids the diarrhea effect that makes other forms impractical at therapeutic doses, so you get the full 200mg therapeutic dose at bedtime, so sleep quality improves and muscle cramps stop being a reason to skip workouts.",
     specs: {
       Dose: "200mg per capsule (take 1-2)",
       Form: "Bisglycinate (most bioavailable)",
@@ -236,7 +236,7 @@ export const telehealthPrograms: Product[] = [
       "Waitlist in some states",
     ],
     verdict:
-      "The highest-quality GLP-1 telehealth provider for users who want real medical oversight. Worth the premium if you're concerned about side effects or have other health conditions.",
+      "The highest-quality GLP-1 telehealth provider for users who want real medical oversight. Worth the premium if you are concerned about side effects or have other health conditions, so a board-certified physician reviews your case instead of an algorithm, so the dosing adjustments that prevent side effects happen before you give up on the medication.",
     specs: {
       "Monthly cost": "Starting at $149/mo",
       Includes: "Medical team + nutrition coaching",
@@ -306,7 +306,7 @@ export const bodyMonitors: Product[] = [
       "Some metrics require standing still for full reading",
     ],
     verdict:
-      "Essential for GLP-1 users who need to verify they're losing fat, not muscle. The complete body composition picture this provides is worth the price.",
+      "Essential for GLP-1 users who need to verify they are losing fat, not muscle. The complete body composition picture this provides is worth the price, so you see visceral fat dropping month over month, so the progress you cannot see on the scale is still tracked and confirmed.",
     specs: {
       Metrics:
         "Weight, fat%, muscle mass, bone density, visceral fat, nerve health",
@@ -339,7 +339,7 @@ export const bodyMonitors: Product[] = [
       "App has some upsell friction",
     ],
     verdict:
-      "The smart pick for GLP-1 users on a budget. At $30, you get 13 body composition metrics and a genuinely useful app — more than enough to track whether you're losing fat vs. muscle.",
+      "The smart pick for GLP-1 users on a budget. At $30, you get 13 body composition metrics and a genuinely useful app. More than enough to track whether you are losing fat versus muscle, so the $500/month medication is working the way it should, so you can adjust protein and training before a bad trend goes too far.",
     specs: {
       Metrics: "13 including fat%, muscle, bone mass, BMI, metabolic age",
       Price: "$30",
