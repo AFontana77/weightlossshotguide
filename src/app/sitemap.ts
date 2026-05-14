@@ -43,6 +43,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/blog/glp1-supplements-guide`, lastModified: today, changeFrequency: "monthly", priority: 0.75 },
     { url: `${BASE_URL}/blog/ozempic-vs-wegovy-vs-mounjaro`, lastModified: today, changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE_URL}/blog/glp1-body-composition-tracking`, lastModified: today, changeFrequency: "monthly", priority: 0.75 },
+    { url: `${BASE_URL}/blog/push-health-zepbound-review`, lastModified: today, changeFrequency: "monthly", priority: 0.85 },
+    { url: `${BASE_URL}/blog/telehealth-glp1-one-time-vs-subscription`, lastModified: today, changeFrequency: "monthly", priority: 0.85 },
+    { url: `${BASE_URL}/blog/tirzepatide-vs-semaglutide-receptors`, lastModified: today, changeFrequency: "monthly", priority: 0.85 },
+    { url: `${BASE_URL}/blog/zepbound-cost-vs-food-budget`, lastModified: today, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${BASE_URL}/blog/omad-with-glp1-protein-strategy`, lastModified: today, changeFrequency: "monthly", priority: 0.8 },
 
     // Evergreen
     { url: `${BASE_URL}/about`, lastModified: today, changeFrequency: "yearly", priority: 0.5 },

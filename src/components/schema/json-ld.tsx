@@ -5,6 +5,8 @@ export function ArticleSchema({
   datePublished,
   dateModified,
   image,
+  author,
+  reviewer,
 }: {
   title: string;
   description: string;
@@ -12,8 +14,10 @@ export function ArticleSchema({
   datePublished: string;
   dateModified: string;
   image?: string;
+  author?: { name: string; title?: string };
+  reviewer?: { name: string; credentials?: string };
 }) {
-  const schema = {
+  const schema: Record<string, unknown> = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: title,
@@ -22,17 +26,31 @@ export function ArticleSchema({
     datePublished,
     dateModified,
     image: image || "https://www.weightlossshotguide.com/og-image.jpg",
-    author: {
-      "@type": "Organization",
-      name: "Weight Loss Shot Guide",
-      url: "https://www.weightlossshotguide.com",
-    },
+    author: author
+      ? {
+          "@type": "Person",
+          name: author.name,
+          jobTitle: author.title,
+        }
+      : {
+          "@type": "Organization",
+          name: "Weight Loss Shot Guide",
+          url: "https://www.weightlossshotguide.com",
+        },
     publisher: {
       "@type": "Organization",
       name: "Weight Loss Shot Guide",
       url: "https://www.weightlossshotguide.com",
     },
   };
+
+  if (reviewer && !reviewer.name.toLowerCase().includes("pending")) {
+    schema.reviewedBy = {
+      "@type": "Person",
+      name: reviewer.name,
+      jobTitle: reviewer.credentials,
+    };
+  }
 
   return (
     <script

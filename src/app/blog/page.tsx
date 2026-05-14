@@ -12,6 +12,46 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    title: "Push Health for Zepbound: What Happens After You Submit",
+    description:
+      "First-person Push Health Zepbound review. What the marketplace does, how the rematch works in seconds, and what I paid.",
+    href: "/blog/push-health-zepbound-review",
+    category: "Telehealth Reviews",
+    readTime: "6 min read",
+  },
+  {
+    title: "GLP-1 Telehealth: One-Time Visit vs $145/Month Plan",
+    description:
+      "Cost math for five GLP-1 telehealth sites. Push, Ro, Sesame, LillyDirect, and Teladoc. Pick the lowest-cost path.",
+    href: "/blog/telehealth-glp1-one-time-vs-subscription",
+    category: "Telehealth",
+    readTime: "7 min read",
+  },
+  {
+    title: "Tirzepatide vs Semaglutide: The Dual-Target Difference",
+    description:
+      "Tirz hits GLP-1 and GIP. Sema hits just GLP-1. What that means for weight loss, blood sugar, and cost.",
+    href: "/blog/tirzepatide-vs-semaglutide-receptors",
+    category: "Drug Science",
+    readTime: "7 min read",
+  },
+  {
+    title: "How I Reframed $450/Month Zepbound Against My Food Budget",
+    description:
+      "Real numbers from my own week. Why $450 a month feels less harsh when food spend drops by half.",
+    href: "/blog/zepbound-cost-vs-food-budget",
+    category: "Cost & Insurance",
+    readTime: "6 min read",
+  },
+  {
+    title: "Hitting 170g Protein on OMAD With a GLP-1: My Egg-White Plan",
+    description:
+      "How I hit 170 to 200 grams of protein on one meal a day on Zepbound. Real foods, real macros, real numbers.",
+    href: "/blog/omad-with-glp1-protein-strategy",
+    category: "Nutrition",
+    readTime: "7 min read",
+  },
+  {
     title: "What to Eat on Ozempic: The Muscle-Preserving Protein Strategy",
     description:
       "The hidden risk of GLP-1 weight loss is muscle loss, not just fat. Here's how to hit your protein targets when you're barely hungry, and which foods and supplements make it achievable.",
@@ -57,9 +97,8 @@ export default function BlogPage() {
           Nutrition, Supplements &amp; Tracking Guides
         </h1>
         <p className="mt-3 text-lg text-muted-foreground">
-          Written specifically for GLP-1 medication users. No generic advice —
-          only what&apos;s different about nutrition and supplementing on these
-          medications.
+          Real notes for GLP-1 users. No fluff. Just what is new about
+          food and pills on these shots.
         </p>
       </header>
 
