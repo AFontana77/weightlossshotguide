@@ -1,4 +1,8 @@
-import type { Product } from "@/lib/affiliate";
+import {
+  SHED_AFFILIATE_URL,
+  DIRECT_MEDS_AFFILIATE_URL,
+  type Product,
+} from "@/lib/affiliate";
 
 // =============================================================================
 // PROTEIN SHAKES
@@ -220,7 +224,7 @@ export const telehealthPrograms: Product[] = [
     price: 149,
     rating: 4.8,
     amazonAsin: "",
-    directUrl: "https://www.shedmd.com",
+    directUrl: SHED_AFFILIATE_URL,
     affiliateSource: "shed",
     image: "",
     shortDescription:
@@ -251,7 +255,7 @@ export const telehealthPrograms: Product[] = [
     price: 99,
     rating: 4.5,
     amazonAsin: "",
-    directUrl: "https://www.directmeds.com",
+    directUrl: DIRECT_MEDS_AFFILIATE_URL,
     affiliateSource: "directMeds",
     image: "",
     shortDescription:

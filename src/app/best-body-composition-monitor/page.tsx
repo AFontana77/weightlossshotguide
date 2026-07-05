@@ -106,7 +106,7 @@ export default function BodyMonitorPage() {
             winnerCategory="Body Composition Monitor"
             dreamOutcomeChain="Track fat loss vs muscle loss every morning so you know whether your GLP-1 is burning fat or muscle, so you can fix your protein before the damage becomes permanent."
             proofPoint="Measures body fat, visceral fat, bone mass, and muscle score. Wi-Fi sync to Health Mate app. Works with Apple Health and Google Fit."
-            affiliateUrl="https://www.amazon.com/dp/B09NMR7Z4M?tag=weightlossshotguide-20"
+            affiliateUrl="https://www.amazon.com/dp/B09NMR7Z4M?tag=wlshotguide-20"
             ctaLabel="Check Price on Amazon"
             riskReversal="30-day Amazon returns. Prime shipping."
           />
@@ -380,7 +380,7 @@ export default function BodyMonitorPage() {
       <StickyCTA
         productName="Withings Body Comp Scale"
         price="$159"
-        ctaUrl="https://www.amazon.com/dp/B09NMR7Z4M?tag=weightlossshotguide-20"
+        ctaUrl="https://www.amazon.com/dp/B09NMR7Z4M?tag=wlshotguide-20"
         ctaLabel="Check Price on Amazon"
       />
     </>
