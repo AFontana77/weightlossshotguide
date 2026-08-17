@@ -25,6 +25,41 @@ export const AMAZON_TAG = "wlshotguide-20";
 export const SHED_AFFILIATE_URL = "https://www.shedmd.com"; // TODO: swap to tracked link on approval ($350 CPA)
 export const DIRECT_MEDS_AFFILIATE_URL = "https://www.directmeds.com"; // TODO: swap to tracked link on approval ($280 CPA)
 
+// ---------------------------------------------------------------------------
+// KA'CHAVA (Rakuten)  —  APPROVED 2026-05-27, BLOCKED ON ONE MISSING VALUE
+//
+// Ka'Chava approved this marketing channel ("Weight Loss Shot Guide", Rakuten
+// publisher SID 4703793) on 2026-05-27. It is a meal-replacement shake, which
+// is an honest fit for GLP-1 readers who cannot finish a normal meal.
+//
+// Advertiser MID 50419 is confirmed against the live Rakuten advertiser
+// catalog. What is missing is this channel's PUBLISHER TOKEN, the opaque
+// "id=" value in a linksynergy URL. It cannot be derived:
+//   - The 2026-05-27 approval email uses Rakuten's newer template, which
+//     carries no MID and no token (older approvals did include one).
+//   - The portfolio's Rakuten API credentials only authenticate scope
+//     4703736 (HomesteadingGear). Every other SID returns invalid_client, so
+//     the Link Generator API cannot mint a link for this channel.
+//   - Reusing another channel's token is not an option. Rakuten scopes links
+//     to the approved marketing channel, and Ka'Chava DENIED HomesteadingGear
+//     on the same day it approved this site.
+//
+// ACTION (Anthony, ~2 minutes): Rakuten publisher dashboard -> switch to the
+// "Weight Loss Shot Guide" channel (SID 4703793) -> Links -> Ka'Chava ->
+// Get Link. Send AFFIL the "id=" value out of the generated URL. That single
+// value turns the constant below into a live tracked link, and AFFIL places
+// the CTA in the same pass.
+export const KACHAVA_RAKUTEN_MID = "50419";
+export const KACHAVA_RAKUTEN_SID = "4703793";
+export const KACHAVA_RAKUTEN_PUBLISHER_ID = ""; // <- paste the "id=" token here
+export const KACHAVA_AFFILIATE_URL = KACHAVA_RAKUTEN_PUBLISHER_ID
+  ? `https://click.linksynergy.com/deeplink?id=${encodeURIComponent(
+      KACHAVA_RAKUTEN_PUBLISHER_ID
+    )}&mid=${KACHAVA_RAKUTEN_MID}&murl=${encodeURIComponent(
+      "https://www.kachava.com/"
+    )}`
+  : ""; // empty until the token lands, so no page can render a dead link
+
 export const AFFILIATE_PROGRAMS = {
   amazon: {
     tag: AMAZON_TAG,
