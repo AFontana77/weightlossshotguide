@@ -43,25 +43,6 @@ const faqs = [
   },
 ];
 
-function StarRating({ rating }: { rating: number }) {
-  return (
-    <div className="flex items-center gap-1">
-      {[1, 2, 3, 4, 5].map((star) => (
-        <Star
-          key={star}
-          className={`w-4 h-4 ${
-            star <= Math.round(rating)
-              ? "fill-amber-400 text-amber-400"
-              : "text-muted"
-          }`}
-        />
-      ))}
-      <span className="text-sm font-medium text-foreground ml-1">
-        {rating.toFixed(1)}
-      </span>
-    </div>
-  );
-}
 
 export default function ProteinPowderPage() {
   return (
@@ -278,7 +259,6 @@ export default function ProteinPowderPage() {
                           {product.name}
                         </h3>
                       </div>
-                      <StarRating rating={product.rating} />
                     </div>
                     <div className="text-right">
                       <p className="text-2xl font-bold text-foreground">
