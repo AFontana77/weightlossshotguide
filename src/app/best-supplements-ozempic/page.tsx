@@ -87,7 +87,6 @@ export default function SupplementsPage() {
             winnerCategory="GLP-1 Supplement"
             dreamOutcomeChain="Take 5g daily so you hold lean muscle while GLP-1 burns the fat, so the weight you lose stays off and your doctor sees the results she was hoping for."
             proofPoint="NSF Certified for Sport. 5g pure creatine monohydrate per serving. No additives. No flavoring."
-            affiliateUrl="https://www.amazon.com/dp/B0013OQKNS?tag=wlshotguide-20"
             ctaLabel="Check Price on Amazon"
             riskReversal="30-day Amazon returns. Prime shipping."
           />

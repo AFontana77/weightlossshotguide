@@ -87,7 +87,6 @@ export default function ProteinPowderPage() {
             winnerCategory="GLP-1 Protein Supplement"
             dreamOutcomeChain="Hit your daily protein target on GLP-1 even when your stomach wants nothing, so you keep the muscle the drug helps you lose, so the weight that comes off stays off."
             proofPoint="42g protein per bottle. Casein plus whey blend. Zero prep. Available at Walmart, Costco, and Amazon."
-            affiliateUrl="https://www.amazon.com/dp/B07WLRG765?tag=wlshotguide-20"
             ctaLabel="Check Price on Amazon"
             riskReversal="30-day Amazon returns. Prime shipping."
           />
