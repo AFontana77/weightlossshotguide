@@ -1,0 +1,128 @@
+{
+ "_note": "Amazon product image LINKS only. No image bytes are stored. Entries expire 24h after fetched_at per the Associates Operating Agreement; the render component falls back to a branded placeholder once stale.",
+ "fetched_at": "2026-08-22T08:13:40+00:00",
+ "ttl_hours": 24,
+ "partner_tag": "wlshotguide-20",
+ "items": {
+  "B000QSNYGI": {
+   "title": "Optimum Nutrition Gold Standard Whey Protein, Double Rich Chocolate, 5 LB",
+   "primary": {
+    "url": "https://m.media-amazon.com/images/I/41Yv+JFOarL._SL500_.jpg",
+    "width": 500,
+    "height": 500
+   },
+   "variants": [
+    {
+     "url": "https://m.media-amazon.com/images/I/41hibkMyxuL._SL500_.jpg",
+     "width": 500,
+     "height": 500
+    },
+    {
+     "url": "https://m.media-amazon.com/images/I/51S9gDX1XkL._SL500_.jpg",
+     "width": 500,
+     "height": 500
+    },
+    {
+     "url": "https://m.media-amazon.com/images/I/51Vv50qCk6L._SL500_.jpg",
+     "width": 500,
+     "height": 500
+    },
+    {
+     "url": "https://m.media-amazon.com/images/I/41FNnVgYscL._SL500_.jpg",
+     "width": 500,
+     "height": 500
+    }
+   ]
+  },
+  "B00Y8MP4G6": {
+   "title": "Garden of Life Once Daily Dr. Formulated Probiotics for Women 50 Billion CFU 16 Probiotic Strains with Organic Prebiotics for Digestive, Vaginal & Immune Health, Dairy Free, Shelf Stable 30 Capsules",
+   "primary": {
+    "url": "https://m.media-amazon.com/images/I/51ES-5p4vnL._SL500_.jpg",
+    "width": 489,
+    "height": 500
+   },
+   "variants": [
+    {
+     "url": "https://m.media-amazon.com/images/I/41x-y6UZiXL._SL500_.jpg",
+     "width": 500,
+     "height": 500
+    },
+    {
+     "url": "https://m.media-amazon.com/images/I/513560H2wxL._SL500_.jpg",
+     "width": 500,
+     "height": 500
+    },
+    {
+     "url": "https://m.media-amazon.com/images/I/41WEFPIYydL._SL500_.jpg",
+     "width": 500,
+     "height": 500
+    },
+    {
+     "url": "https://m.media-amazon.com/images/I/51l7AtOC64L._SL500_.jpg",
+     "width": 500,
+     "height": 500
+    }
+   ]
+  },
+  "B0797HBLL3": {
+   "title": "THORNE Magnesium Bisglycinate, Powdered Magnesium Formula, 60 Servings",
+   "primary": {
+    "url": "https://m.media-amazon.com/images/I/31sxoTL0CKL._SL500_.jpg",
+    "width": 500,
+    "height": 500
+   },
+   "variants": [
+    {
+     "url": "https://m.media-amazon.com/images/I/41v-9P7JDBL._SL500_.jpg",
+     "width": 500,
+     "height": 500
+    },
+    {
+     "url": "https://m.media-amazon.com/images/I/41+n1vBiTrL._SL500_.jpg",
+     "width": 500,
+     "height": 500
+    },
+    {
+     "url": "https://m.media-amazon.com/images/I/515G5vHbc4L._SL500_.jpg",
+     "width": 500,
+     "height": 500
+    },
+    {
+     "url": "https://m.media-amazon.com/images/I/41do9gV7AaL._SL500_.jpg",
+     "width": 500,
+     "height": 500
+    }
+   ]
+  },
+  "B09RQBHRCT": {
+   "title": "Vital Proteins Collagen Peptides Powder, Unflavored, 9.33oz",
+   "primary": {
+    "url": "https://m.media-amazon.com/images/I/413yutXiSbL._SL500_.jpg",
+    "width": 500,
+    "height": 500
+   },
+   "variants": [
+    {
+     "url": "https://m.media-amazon.com/images/I/41QY-gi3KxL._SL500_.jpg",
+     "width": 500,
+     "height": 500
+    },
+    {
+     "url": "https://m.media-amazon.com/images/I/51Ocl+fKrYL._SL500_.jpg",
+     "width": 500,
+     "height": 500
+    },
+    {
+     "url": "https://m.media-amazon.com/images/I/41MU8MoEy8L._SL500_.jpg",
+     "width": 500,
+     "height": 500
+    },
+    {
+     "url": "https://m.media-amazon.com/images/I/41v9uyA5+SL._SL500_.jpg",
+     "width": 500,
+     "height": 500
+    }
+   ]
+  }
+ }
+}
