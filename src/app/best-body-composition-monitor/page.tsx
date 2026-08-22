@@ -359,7 +359,6 @@ export default function BodyMonitorPage() {
       <StickyCTA
         productName="Withings Body Comp Scale"
         price="$159"
-        ctaUrl="https://www.amazon.com/dp/B09NMR7Z4M?tag=wlshotguide-20"
         ctaLabel="Check Price on Amazon"
       />
     </>

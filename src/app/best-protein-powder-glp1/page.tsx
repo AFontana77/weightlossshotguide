@@ -396,7 +396,6 @@ export default function ProteinPowderPage() {
       <StickyCTA
         productName="Fairlife Core Power Elite"
         price="$44"
-        ctaUrl="https://www.amazon.com/dp/B07WLRG765?tag=wlshotguide-20"
         ctaLabel="Check Price on Amazon"
       />
     </>

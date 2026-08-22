@@ -361,7 +361,6 @@ export default function SupplementsPage() {
       <StickyCTA
         productName="Thorne Creatine Monohydrate"
         price="$35"
-        ctaUrl="https://www.amazon.com/dp/B0013OQKNS?tag=wlshotguide-20"
         ctaLabel="Check Price on Amazon"
       />
     </>
