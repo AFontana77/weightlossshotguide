@@ -1,6 +1,6 @@
 {
  "_note": "Amazon product image LINKS only. No image bytes are stored. Entries expire 24h after fetched_at per the Associates Operating Agreement; the render component falls back to a branded placeholder once stale.",
- "fetched_at": "2026-09-18T09:17:56+00:00",
+ "fetched_at": "2026-09-18T21:17:56+00:00",
  "ttl_hours": 24,
  "partner_tag": "wlshotguide-20",
  "items": {
@@ -43,12 +43,12 @@
    },
    "variants": [
     {
-     "url": "https://m.media-amazon.com/images/I/51vMzkBsecL._SL500_.jpg",
+     "url": "https://m.media-amazon.com/images/I/51fnIXNovmL._SL500_.jpg",
      "width": 500,
      "height": 500
     },
     {
-     "url": "https://m.media-amazon.com/images/I/61QhaXlKmnL._SL500_.jpg",
+     "url": "https://m.media-amazon.com/images/I/61Uq7PGzXuL._SL500_.jpg",
      "width": 500,
      "height": 500
     },
