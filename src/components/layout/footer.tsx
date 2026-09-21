@@ -116,7 +116,7 @@ export function Footer() {
           </p>
           <p className="text-xs text-muted-foreground text-center sm:text-right max-w-md">
             Weight Loss Shot Guide is reader-supported. When you buy through links on our
-            site, we may earn an affiliate commission at no extra cost to you.
+            site, we may earn an affiliate commission at no extra cost to you. As an Amazon Associate we earn from qualifying purchases.
           </p>
         </div>
       </div>
