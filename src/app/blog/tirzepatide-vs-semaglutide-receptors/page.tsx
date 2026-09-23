@@ -14,6 +14,18 @@ const TITLE = "Tirzepatide vs Semaglutide: The Dual-Receptor Difference Explaine
 const DESCRIPTION =
   "Tirzepatide hits two body targets. Semaglutide hits one. What the dual GLP-1 plus GIP action means for weight loss, blood sugar, and side e-ffects.";
 
+
+/**
+ * These pages already held TITLE, DESCRIPTION and URL but never exported a
+ * metadata object, so each one inherited the layout title and shipped with no
+ * canonical. The constants were right; nothing was reading them.
+ */
+export const metadata: Metadata = {
+  title: TITLE,
+  description: DESCRIPTION,
+  alternates: { canonical: "/blog/tirzepatide-vs-semaglutide-receptors" },
+  openGraph: { title: TITLE, description: DESCRIPTION, url: URL, type: "article" },
+};
 const faqs = [
   {
     question: "What is the big diff?",

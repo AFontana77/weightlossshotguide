@@ -14,6 +14,18 @@ const TITLE = "Hitting 170g Protein on OMAD With a GLP-1: My Egg-White Protocol"
 const DESCRIPTION =
   "First-person plan. How I hit 170 to 200 grams of protein on one meal a day while on Zepbound. Real foods, real numbers, real macros.";
 
+
+/**
+ * These pages already held TITLE, DESCRIPTION and URL but never exported a
+ * metadata object, so each one inherited the layout title and shipped with no
+ * canonical. The constants were right; nothing was reading them.
+ */
+export const metadata: Metadata = {
+  title: TITLE,
+  description: DESCRIPTION,
+  alternates: { canonical: "/blog/omad-with-glp1-protein-strategy" },
+  openGraph: { title: TITLE, description: DESCRIPTION, url: URL, type: "article" },
+};
 const faqs = [
   {
     question: "Can you do OMAD on a GLP-1 drug?",

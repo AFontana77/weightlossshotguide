@@ -14,6 +14,18 @@ const TITLE = "Push Health for Zepbound: What Actually Happens After You Click S
 const DESCRIPTION =
   "First-person Push Health Zepbound review. What the marketplace really does, how provider rematch works in seconds, and what it costs.";
 
+
+/**
+ * These pages already held TITLE, DESCRIPTION and URL but never exported a
+ * metadata object, so each one inherited the layout title and shipped with no
+ * canonical. The constants were right; nothing was reading them.
+ */
+export const metadata: Metadata = {
+  title: TITLE,
+  description: DESCRIPTION,
+  alternates: { canonical: "/blog/push-health-zepbound-review" },
+  openGraph: { title: TITLE, description: DESCRIPTION, url: URL, type: "article" },
+};
 const faqs = [
   {
     question: "Is Push Health a real telehealth site?",

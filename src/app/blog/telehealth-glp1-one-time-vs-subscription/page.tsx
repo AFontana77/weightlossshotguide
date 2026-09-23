@@ -14,6 +14,18 @@ const TITLE = "GLP-1 Telehealth: One-Time Visit vs $145/Month Subscription";
 const DESCRIPTION =
   "First-person GLP-1 telehealth cost guide. One-time visit fees vs $145 per month Ro Body. Compare Ro, Push, Sesame, LillyDirect, and Teladoc head to head.";
 
+
+/**
+ * These pages already held TITLE, DESCRIPTION and URL but never exported a
+ * metadata object, so each one inherited the layout title and shipped with no
+ * canonical. The constants were right; nothing was reading them.
+ */
+export const metadata: Metadata = {
+  title: TITLE,
+  description: DESCRIPTION,
+  alternates: { canonical: "/blog/telehealth-glp1-one-time-vs-subscription" },
+  openGraph: { title: TITLE, description: DESCRIPTION, url: URL, type: "article" },
+};
 const faqs = [
   {
     question: "Do I need a monthly GLP-1 telehealth plan?",

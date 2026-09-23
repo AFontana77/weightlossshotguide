@@ -14,6 +14,18 @@ const TITLE = "How I Reframed $450/Month Zepbound Against My Old Food Budget";
 const DESCRIPTION =
   "First-person Zepbound cost math. How $450 per month feels less harsh when food spend drops by half. Real numbers from my own week.";
 
+
+/**
+ * These pages already held TITLE, DESCRIPTION and URL but never exported a
+ * metadata object, so each one inherited the layout title and shipped with no
+ * canonical. The constants were right; nothing was reading them.
+ */
+export const metadata: Metadata = {
+  title: TITLE,
+  description: DESCRIPTION,
+  alternates: { canonical: "/blog/zepbound-cost-vs-food-budget" },
+  openGraph: { title: TITLE, description: DESCRIPTION, url: URL, type: "article" },
+};
 const faqs = [
   {
     question: "How much does Zepbound cost out of pocket?",
