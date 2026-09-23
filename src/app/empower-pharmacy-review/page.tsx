@@ -28,6 +28,7 @@ const faqs = [
 ];
 
 export const metadata = {
+  alternates: { canonical: "/empower-pharmacy-review" },
   title: "Empower Pharmacy GLP-1 Review (2026): 503B Compounding and Semaglutide",
   description:
     "Empower Pharmacy review for GLP-1 compounding. 503A and 503B status, semaglutide and tirzepatide availability, how to access, and quality standards.",

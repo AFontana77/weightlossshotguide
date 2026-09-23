@@ -34,6 +34,7 @@ const breadcrumbItems = [
 ];
 
 export const metadata = {
+  alternates: { canonical: "/zepbound-vs-wegovy" },
   title: "Zepbound vs Wegovy (2026): Head-to-Head Clinical Data",
   description:
     "Zepbound and Wegovy compared side by side. SURMOUNT-5 results, cost, side effects, and who should choose which.",

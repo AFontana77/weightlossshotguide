@@ -29,6 +29,7 @@ const faqs = [
 ];
 
 export const metadata = {
+  alternates: { canonical: "/eden-health-review" },
   title: "Eden Health Review (2026): GLP-1 Telehealth Pricing and Quality",
   description:
     "Honest Eden Health review covering GLP-1 pricing, prescriber model, pharmacy partners, pros and cons, and who this telehealth platform is right for.",

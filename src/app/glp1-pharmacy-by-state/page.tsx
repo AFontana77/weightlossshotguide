@@ -33,6 +33,7 @@ const breadcrumbItems = [
 ];
 
 export const metadata = {
+  alternates: { canonical: "/glp1-pharmacy-by-state" },
   title: "GLP-1 Access by State (2026): Telehealth Coverage and Prescribing",
   description:
     "Where can you get GLP-1 medications in your state? Telehealth platform coverage, compounding pharmacy access, and insurance coverage by state.",

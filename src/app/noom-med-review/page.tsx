@@ -29,6 +29,7 @@ const faqs = [
 ];
 
 export const metadata = {
+  alternates: { canonical: "/noom-med-review" },
   title: "Noom Med Review (2026): Behavior Change + GLP-1 Medications",
   description:
     "Noom Med review covering GLP-1 prescribing, behavior-change coaching, pricing, pros and cons, and who this program is right for.",

@@ -34,6 +34,7 @@ const breadcrumbItems = [
 ];
 
 export const metadata = {
+  alternates: { canonical: "/ozempic-vs-mounjaro" },
   title: "Ozempic vs Mounjaro (2026): Which Is Better?",
   description:
     "Ozempic vs Mounjaro compared. Active ingredients, weight loss data, cost, savings cards, and how to access each through telehealth.",

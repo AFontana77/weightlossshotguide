@@ -29,6 +29,7 @@ const faqs = [
 ];
 
 export const metadata = {
+  alternates: { canonical: "/weightwatchers-clinic-review" },
   title: "WeightWatchers Clinic Review (2026): GLP-1 + Behavior Change",
   description:
     "WeightWatchers Clinic review covering GLP-1 prescribing, pricing, behavior-change program, pros and cons, and who this program is right for.",

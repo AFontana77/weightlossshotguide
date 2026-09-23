@@ -34,6 +34,7 @@ const breadcrumbItems = [
 ];
 
 export const metadata = {
+  alternates: { canonical: "/glp1-without-insurance" },
   title: "How to Get GLP-1 Medications Without Insurance in 2026",
   description:
     "Every option for getting Ozempic, Wegovy, Mounjaro, or Zepbound without insurance: savings cards, compounding pharmacies, patient assistance programs, and telehealth.",

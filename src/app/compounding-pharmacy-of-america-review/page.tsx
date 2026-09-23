@@ -28,6 +28,7 @@ const faqs = [
 ];
 
 export const metadata = {
+  alternates: { canonical: "/compounding-pharmacy-of-america-review" },
   title: "Compounding Pharmacy of America Review (2026): GLP-1 Compounding",
   description:
     "Compounding Pharmacy of America review for GLP-1 medications. 503A status, semaglutide availability, how to order, and quality considerations.",

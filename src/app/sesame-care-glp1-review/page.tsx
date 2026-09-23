@@ -29,6 +29,7 @@ const faqs = [
 ];
 
 export const metadata = {
+  alternates: { canonical: "/sesame-care-glp1-review" },
   title: "Sesame Care GLP-1 Review (2026): Pay-Per-Visit Weight Loss Prescriptions",
   description:
     "Sesame Care review for GLP-1 weight loss prescriptions. Pay-per-visit model, board-certified physicians, and no subscription fee. Who it is right for.",

@@ -34,6 +34,7 @@ const breadcrumbItems = [
 ];
 
 export const metadata = {
+  alternates: { canonical: "/zepbound-alternatives" },
   title: "Zepbound Alternatives (2026): Cheaper Paths to Tirzepatide",
   description:
     "Zepbound not covered by insurance? Compare every alternative: compounded tirzepatide, Wegovy, Mounjaro off-label, compounded semaglutide, and telehealth GLP-1 programs.",

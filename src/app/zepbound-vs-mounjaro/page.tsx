@@ -34,6 +34,7 @@ const breadcrumbItems = [
 ];
 
 export const metadata = {
+  alternates: { canonical: "/zepbound-vs-mounjaro" },
   title: "Zepbound vs Mounjaro (2026): Same Drug, Different Insurance",
   description:
     "Zepbound and Mounjaro both contain tirzepatide. They differ in FDA indication and insurance coverage. Here is what that means for your prescription.",

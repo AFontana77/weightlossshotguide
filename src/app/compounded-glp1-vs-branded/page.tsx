@@ -34,6 +34,7 @@ const breadcrumbItems = [
 ];
 
 export const metadata = {
+  alternates: { canonical: "/compounded-glp1-vs-branded" },
   title: "Compounded vs Branded GLP-1 (2026): Cost, Safety, and Differences",
   description:
     "Compounded semaglutide or tirzepatide vs Wegovy, Zepbound, Ozempic: what is the real difference in cost, safety, and effectiveness?",

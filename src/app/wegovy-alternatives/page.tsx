@@ -34,6 +34,7 @@ const breadcrumbItems = [
 ];
 
 export const metadata = {
+  alternates: { canonical: "/wegovy-alternatives" },
   title: "Wegovy Alternatives (2026): Cost, Effectiveness, and Coverage",
   description:
     "Wegovy too expensive or not covered? Compare every alternative: Zepbound, compounded semaglutide, Ozempic off-label, Saxenda, and telehealth GLP-1 programs.",

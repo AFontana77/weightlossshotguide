@@ -28,6 +28,7 @@ const faqs = [
 ];
 
 export const metadata = {
+  alternates: { canonical: "/olympia-pharmacy-review" },
   title: "Olympia Pharmacy GLP-1 Review (2026): Compounded Semaglutide",
   description:
     "Olympia Pharmacy review for compounded GLP-1 medications. 503A status, semaglutide availability, telehealth partnerships, and how to access.",

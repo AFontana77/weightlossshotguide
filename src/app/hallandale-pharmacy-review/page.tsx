@@ -28,6 +28,7 @@ const faqs = [
 ];
 
 export const metadata = {
+  alternates: { canonical: "/hallandale-pharmacy-review" },
   title: "Hallandale Pharmacy Review (2026): Compounded GLP-1 Injectables",
   description:
     "Hallandale Pharmacy review for compounded GLP-1 medications. Florida-based 503A compounding pharmacy, semaglutide availability, and how to access.",

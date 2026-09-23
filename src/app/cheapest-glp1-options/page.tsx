@@ -35,6 +35,7 @@ const breadcrumbItems = [
 ];
 
 export const metadata = {
+  alternates: { canonical: "/cheapest-glp1-options" },
   title: "Cheapest GLP-1 Options in 2026: From $99/mo to Branded",
   description:
     "Ranked by monthly cost: compounded semaglutide, savings cards, and branded GLP-1 medications. How to get the lowest price on Ozempic, Wegovy, Mounjaro, and Zepbound.",

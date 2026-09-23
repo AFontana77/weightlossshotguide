@@ -33,6 +33,7 @@ const breadcrumbItems = [
 ];
 
 export const metadata = {
+  alternates: { canonical: "/fda-shortage-list-glp1" },
   title: "GLP-1 FDA Shortage List Status (2026): Semaglutide and Tirzepatide",
   description:
     "Is semaglutide or tirzepatide on the FDA drug shortage list? Here is what the shortage list means, why it matters for compounding, and where to verify current status.",
